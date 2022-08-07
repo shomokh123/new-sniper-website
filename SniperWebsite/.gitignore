@@ -43,3 +43,8 @@ tailwindcss.exe
 /public/dist/
 .tailwindcss-manifest.json
 tailwindcss.exe
+tailwindcss
+/public/css/
+/public/dist/
+.tailwindcss-manifest.json
+tailwindcss
