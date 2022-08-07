@@ -1,0 +1,204 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+
+
+
+
+
+#VisionMission{
+background-image:url('../img/visionBackground.png');
+background-repeat:no-repeat;
+background-size: 1200px;
+background-position: 50% 50%;
+}
+
+#visionOverley{
+background-image:url('../img/visionoverley(1).png');
+background-repeat:no-repeat;
+background-position: 48% 40%;
+}
+
+#cta {
+  background-image: url('../img/bg-simplify-section-desktop.svg');
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 576px) {
+  #hero {
+    background-position: -650px 50px;
+    background-size: 1800px;
+  } 
+
+
+  #cta {
+    background-image: url('../img/bg-simplify-section-mobile.svg');
+  }
+}
+
+/* Hamburger Menu */
+.hamburger {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  position: relative;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: #000;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.hamburger-middle {
+  transform: translateY(7px);
+}
+
+.hamburger-bottom {
+  transform: translateY(14px);
+}
+
+.open {
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
+
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .hamburger-middle {
+  display: none;
+}
+
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+/*services style*/
+#serviceIcon{
+  background-color: #BE2623;
+}
+
+
+
+/* partners style*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.listing-carousel-button{
+    position: absolute;
+    top: 50%;
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: -25px;
+    z-index: 100;
+    cursor: pointer;
+    background: #BE2623;
+    box-shadow: 0 9px 26px rgba(58, 87,135,0.45);
+    transition: all 200ms linear;
+    outline: none;
+}
+.listing-carousel-button.listing-carousel-button-next{
+    right: -30px;
+    padding-right: 20px;
+    border-radius: 60px 0 0 60px;
+}
+.listing-carousel-button.listing-carousel-button-prev{
+    left: -30px;
+    padding-left: 20px;
+    border-radius: 0 60px 60px 0;
+}
+.listing-carousel-button.listing-carousel-button-next:hover{
+    right: -15px;
+    background: rgb(255, 128, 128);
+}
+.listing-carousel-button.listing-carousel-button-prev:hover{
+    left: -15px;
+    background: rgb(255, 128, 128);
+}
+
+
+.testimonials-carousel .swiper-slide{
+    padding: 30px 0;
+}    
+
+.testi-avatar img{
+    width: 90px;
+    height: 90px;
+    float: left;
+    border-radius: 100%;
+    border:6px solid #fff;
+    box-shadow: 0 9px 26px rgba(58, 87,135,0.1);
+}
+
+.swiper-slide-active .testi-item{
+    opacity: 1;
+    transform: scale(1.0);
+}
+.tc-pagination{
+    float: left;
+    margin-top: 10px;
+    width: 100% !important;
+}
+.tc-pagination_wrap {
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    width: 100%;
+}
+.tc-pagination2{
+    float: none;
+    display: inline-block;
+    padding: 14px 0;
+    background: #fff;
+    border-radius: 30px;
+    min-width: 250px;
+    border-bottom: 0;
+}
+.tc-pagination .swiper-pagination-bullet, .tc-pagination2.swiper-pagination-bullet{
+    opacity: 1;
+    background: #BE2623;
+    margin:0 2px;
+    width: 10px;
+    height: 10px;
+    transition: all 300ms ease-in-out;
+}
+
+/*About us section*/
+#sniperteam{
+    background-color: #FFFF;
+  }
+  #sniperboldAboutus{
+    counter-reset: #CC0206;
+  }
+
+  #teamCard{
+background-color:#FDEAE9 ;
+  }
+  
+  /*end About us section*/
+
+  /*journy image*/
+
+
+  #journey{
+    background-image: url('../img/journeyphases.PNG');
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: 50% 50%;
+  }
