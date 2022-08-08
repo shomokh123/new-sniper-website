@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/app.css" />
     <link rel="stylesheet" href="{{tailwindcss('css/app.css')}}" />
 
-
-      <!--Services style-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css"/>
+     <!--Services style-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
      <!--Services script-->
@@ -18,13 +15,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
   <script src="scripts.js"></script>
 
-    <title>Journey Page</title>
+    <title>Sniper Landing Page</title>
     @vite('resources/css/app.css')
     @vite('resources/js/script.js')
   </head>
+
   <body>
-  <!-- Navbar -->
-  <nav id="Home"class="relative container mx-auto p-6">
+    <!-- Navbar -->
+    <nav id="Home"class="relative container mx-auto p-6">
       <!-- Flex container -->
       <div class="flex items-center justify-between">
         <!-- Logo -->
@@ -71,80 +69,98 @@
           <a href="#services" class="hover:text-darkGrayishBlue">SERVICES</a>
           <a href="#Partners" class="hover:text-darkGrayishBlue">PARTNERS</a>
           <a href="#Clients" class="hover:text-darkGrayishBlue">CLIENTS</a>
-          <a href="#" class="hover:text-darkGrayishBlue">THE JOURNEY</a>
+          <a href="theJourney" class="hover:text-darkGrayishBlue">THE JOURNEY</a>
           <a href="#FOOTER" class="hover:text-darkGrayishBlue">CONTACT US</a>
         </div>
       </div>
     </nav>
 
-    <section >
-    <h2 class="text-4xl font-bold text-center"> <a class="text-darkRed">The</a> Journey</h2>
+     <!-- Hero Section -->
+   <section>
+     
+<div id="theJourney"class="py-12 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div  class="max-w-6xl px-5 mx-auto mt-2 text-center">
+<h2 class="mt-2 text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl">The <a class="text-darkRed">Journey</a></h2>
+        </div> 
+    <div class="mt-10">
+      <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-4 md:gap-x-8 md:gap-y-10">
+        <div class="relative">
+          <dt>
+            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white " id="journeyIcon">
 
-    <div class="container bg-white mx-auto w-full h-full">
-  <div class="relative wrap overflow-hidden p-10 h-full">
-    <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border" style="left: 50%"></div>
-    <!-- right timeline -->
-    <div class="mb-8 flex justify-between items-center w-full right-timeline">
-      <div class="order-1 w-5/12"></div>
-      <div class="z-20 flex items-center order-1 bg-red-700 shadow-xl w-8 h-8 rounded-full">
-        <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
-      </div>
-      <div class="order-1 bg-gray-200 rounded-lg shadow-xl w-5/12 px-6 py-4">
-        <h3 class="mb-3 font-bold text-gray-800 text-xl">1ST: <a class="text-darkRed">EVALUATE</a></h3>
-        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">-SIGN UP as SNIPER.<br>
-            -APPLY.<br>
-            -GET your Score.<br>
-            -know where you should HUNT.<br></p>
-      </div>
-    </div>
+            <img class="text-white dark:text-white" src="img/SniPericon.svg" alt=""/>
+             
+          </div>
+            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">1ST: <a class="text-darkRed">EVALUATE</a> </p>
+          </dt>
+          <dd class="mt-2 ml-16 text-base text-gray-500">SIGN UP as SNIPER,
+APPLY,
+GET your Score,
+know where you should 
+HUNT.</dd>
+        </div>
 
-    <!-- left timeline -->
-    <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-      <div class="order-1 w-5/12"></div>
-      <div class="z-20 flex items-center order-1 bg-red-700 shadow-xl w-8 h-8 rounded-full">
-        <h1 class="mx-auto text-white font-semibold text-lg">2</h1>
-      </div>
-      <div class="order-1 bg-red-100 rounded-lg shadow-xl w-5/12 px-6 py-4">
-        <h3 class="mb-3 font-bold text-black text-xl">2ST: <a class="text-darkRed">INCUBATE</a></h3>
-        <p class="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100"> 1.Business STRATEGY & model.<br>
-          2. management & EFFICIENCY.<br>
-          3.Branding & Marketing.<br>
-          4.Operation & LOGISTICS.<br>
-          5. launching.<br></p>
-      </div>
-    </div>
-    
-    <!-- right timeline -->
-    <div class="mb-8 flex justify-between items-center w-full right-timeline">
-      <div class="order-1 w-5/12"></div>
-      <div class="z-20 flex items-center order-1 bg-red-700 shadow-xl w-8 h-8 rounded-full">
-        <h1 class="mx-auto font-semibold text-lg text-white">3</h1>
-      </div>
-      <div class="order-1 bg-gray-200 rounded-lg shadow-xl w-5/12 px-6 py-4">
-        <h3 class="mb-3 font-bold text-gray-800 text-xl">3ST: <a class="text-darkRed">GROW</a></h3>
-        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">When your businesses matures, we provide financial solutions to give you the opportunity to expand and grow, such As:
-            Direct investment, crowded funding, angel investor, family fund.</p>
-      </div>
-    </div>
 
-    <!-- left timeline -->
-    <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-      <div class="order-1 w-5/12"></div>
-      <div class="z-20 flex items-center order-1 bg-red-700 shadow-xl w-8 h-8 rounded-full">
-        <h1 class="mx-auto text-white font-semibold text-lg">4</h1>
-      </div>
-      <div class="order-1 bg-red-100 rounded-lg shadow-xl w-5/12 px-6 py-4">
-        <h3 class="mb-3 font-bold text-black text-xl">4ST: <a class="text-darkRed">RUN</a></h3>
-        <p class="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-      </div>
+        <div class="relative">
+          <dt>
+            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white" id="journeyIcon">
+
+            <img class="text-white dark:text-white" src="img/SniPericon.svg" alt=""/>
+
+            </div>
+            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">2ST: <a class="text-darkRed">INCUBATE</a></p>
+          </dt>
+          <dd class="mt-2 ml-16 text-base text-gray-500">Business STRATEGY model, management EFFICIENCY, Branding Marketing, Operation LOGISTICS, launching</dd>
+        </div>
+
+        <div class="relative">
+          <dt>
+          <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white" id="journeyIcon">
+            
+          <img class="text-white dark:text-white" src="img/SniPericon.svg" alt=""/>
+
+          </div>
+            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">3ST: <a class="text-darkRed">GROW</a></p>
+          </dt>
+          <dd class="mt-2 ml-16 text-base text-gray-500">When your businesses matures, we provide financial solutions to give you the opportunity to expand and grow, such As:
+Direct investment – crowded funding - angel investor -family fund.</dd>
+        </div>
+
+        <div class="relative">
+          <dt>
+            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white" id="journeyIcon">
+             
+            <img class="text-white dark:text-white" src="img/SniPericon.svg" alt=""/>
+
+            </div>
+            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">4ST: <a class="text-darkRed">RUN</a></p>
+          </dt>
+          <dd class="mt-2 ml-16 text-base text-gray-500">Place to work, place to HUNT.
+            An open flexible HUB with different designs of workspaces (open – private),
+            facilities equipped with capabilities that entrepreneurs need fortheir work, a
+            place that brings together creative people in various fields to share knowledge
+            and experience.</dd>
+        </div>
+        
+      </dl>
     </div>
   </div>
 </div>
-    </section>
-        
-     
 
-     <!-- Footer -->
+
+
+    </section>
+   
+
+
+ 
+
+
+
+
+
+  <!-- Footer -->
   <footer id="FOOTER" class="bg-darkRed">
       <!-- Flex Container -->
       <div
@@ -218,6 +234,5 @@
 
     <script src="js/script.js"></script>
 
-
-</body>
+  </body>
 </html>
