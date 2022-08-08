@@ -118,7 +118,7 @@
 
           <!-- member 3 -->
           <div
-            class="flex flex-col items-center p-6 space-y-6 rounded-lg  md:flex md:w-1/3 sm:mt-16" id="journyimage" 
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg  md:flex md:w-1/3 sm:mt-16 " id="journyimage" 
           >
           <h5 class="text-lg font-bold">3ST: <a class="text-darkRed">GROW</a></h5>
           <img src="img/journey3.png" id="journyimage"  alt="" />
@@ -142,6 +142,81 @@
 </div>
     </section>
      
+
+     <!-- Footer -->
+  <footer id="FOOTER" class="bg-darkRed">
+      <!-- Flex Container -->
+      <div
+        class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0"
+      >
+        <!-- Logo and social links container -->
+        <div
+          class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start"
+        >
+          <div class="mx-auto my-6 text-center text-white md:hidden">
+            Copyright &copy; 2022, All Rights Reserved
+          </div>
+          <!-- Logo -->
+          <div>
+            <img src="img/SniperLogoFooter.SVG" class="h-8 w-8" alt="" />
+          </div>
+          <!-- Social Links Container -->
+          <div class="flex justify-center space-x-4">
+            <!-- facebook Link  -->
+            <a href="#">
+              <img src="img/icon-facebook.svg" alt="" class="h-6" />
+            </a>
+            <!-- youtube Link  -->
+            <a href="#">
+              <img src="img/icon-youtube.svg" alt="" class="h-6" />
+            </a>
+            <!-- twitter Link  -->
+            <a href="https://twitter.com/SniperHubCo" target="_blank">
+              <img src="img/icon-twitter.svg" alt="" class="h-6" />
+            </a>
+            <!-- instagram Link  -->
+            <a href="#">
+              <img src="img/icon-instagram.svg" alt="" class="h-6" />
+            </a>
+
+              <!-- email Link  -->
+              <a href="mailto:Projects@bdd.com.sa">
+              <img src="img/icon-email.svg" alt="" class="h-6" />
+            </a>
+
+              <!-- phone Link  -->
+              <a href="tel:+966501422999">
+              <img src="img/icon-phone.svg" alt="" class="h-6" />
+            </a>
+          </div>
+        </div>
+        <!-- Mnue List Container -->
+        <div class="flex justify-around space-x-32">
+          <div class="flex flex-col space-y-3 text-white">
+            <a href="#" class="hover:text-brightRed">HOME</a>
+            <a href="#" class="hover:text-brightRed">ABOUT US</a>
+            <a href="#" class="hover:text-brightRed">SERVICES</a>
+            <a href="#" class="hover:text-brightRed">PARTNERS</a>
+          </div>
+          <div class="flex flex-col space-y-3 text-white">
+            <a href="#" class="hover:text-brightRed">CLIENTS</a>
+            <a href="#" class="hover:text-brightRed">THE JOURNEY</a>
+            <a href="#" class="hover:text-brightRed">CONTACT US</a>
+          </div>
+        </div>
+      
+        <!-- Copyright -->
+        <div class="flex flex-col justify-between">
+       
+          <div class="hidden text-white md:block">
+            Copyright &copy; 2022, All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
 
 </body>
 </html>

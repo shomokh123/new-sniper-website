@@ -260,7 +260,8 @@
 
   
 
-    <footer class="bg-red-700">
+     <!-- Footer -->
+  <footer id="FOOTER" class="bg-darkRed">
       <!-- Flex Container -->
       <div
         class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0"
@@ -274,33 +275,39 @@
           </div>
           <!-- Logo -->
           <div>
-            <img src="img/SniperLogo.jpeg" class="h-8" alt="" />
+            <img src="img/SniperLogoFooter.SVG" class="h-8 w-8" alt="" />
           </div>
           <!-- Social Links Container -->
           <div class="flex justify-center space-x-4">
-            <!-- Link 1 -->
+            <!-- facebook Link  -->
             <a href="#">
-              <img src="img/icon-facebook.svg" alt="" class="h-8" />
+              <img src="img/icon-facebook.svg" alt="" class="h-6" />
             </a>
-            <!-- Link 2 -->
+            <!-- youtube Link  -->
             <a href="#">
-              <img src="img/icon-youtube.svg" alt="" class="h-8" />
+              <img src="img/icon-youtube.svg" alt="" class="h-6" />
             </a>
-            <!-- Link 3 -->
-            <a href="#">
-              <img src="img/icon-twitter.svg" alt="" class="h-8" />
+            <!-- twitter Link  -->
+            <a href="https://twitter.com/SniperHubCo" target="_blank">
+              <img src="img/icon-twitter.svg" alt="" class="h-6" />
             </a>
-            <!-- Link 4 -->
+            <!-- instagram Link  -->
             <a href="#">
-              <img src="img/icon-pinterest.svg" alt="" class="h-8" />
+              <img src="img/icon-instagram.svg" alt="" class="h-6" />
             </a>
-            <!-- Link 5 -->
-            <a href="#">
-              <img src="img/icon-instagram.svg" alt="" class="h-8" />
+
+              <!-- email Link  -->
+              <a href="mailto:Projects@bdd.com.sa">
+              <img src="img/icon-email.svg" alt="" class="h-6" />
+            </a>
+
+              <!-- phone Link  -->
+              <a href="tel:+966501422999">
+              <img src="img/icon-phone.svg" alt="" class="h-6" />
             </a>
           </div>
         </div>
-        <!-- List Container -->
+        <!-- Mnue List Container -->
         <div class="flex justify-around space-x-32">
           <div class="flex flex-col space-y-3 text-white">
             <a href="#" class="hover:text-brightRed">HOME</a>
@@ -315,9 +322,9 @@
           </div>
         </div>
       
-        <!-- Input Container -->
+        <!-- Copyright -->
         <div class="flex flex-col justify-between">
-          
+       
           <div class="hidden text-white md:block">
             Copyright &copy; 2022, All Rights Reserved
           </div>
@@ -326,6 +333,7 @@
     </footer>
 
     <script src="js/script.js"></script>
+
 
     
 </body>
