@@ -200,13 +200,18 @@ background-color:#FDEAE9 ;
     width: 100%;
 text-align: center;
 padding-bottom: 0%;
-margin-bottom: 15%; 
+margin-bottom: 18%; 
  }
 #textJ{
-margin-top: -80%;
-font-size: 108%;
+margin-top: -85%;
+font-size: 100%;
 padding-left: 0%;
+}
 
-
+#Journey3{
+ margin-top: -85%;
+font-size: 100%;
+padding-left: 16%;
+padding-right: 13%;
 }
  

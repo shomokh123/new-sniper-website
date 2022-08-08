@@ -79,7 +79,7 @@
 
     
     <section >
-    <div class="max-w-6/12 px-5 mx-auto mt-32 text-center">
+    <div class="max-w-6/12 px-5 mx-auto mt-32 text-center md:py-6 sm:pb-96">
     <h2 class="text-4xl font-bold text-center"> <a class="text-darkRed">The</a> Journey</h2>
 
     <div class="flex flex-col mt-24 md:flex-row md:space-x-6 ">
@@ -88,13 +88,13 @@
             class="flex flex-col items-center p-6 space-y-6 rounded-lg md:w-1/3 sm:mt-16" id="journyimage" 
           >
           <h5 class=" text-lg font-bold">1ST: <a class="text-darkRed">EVALUATE</a> </h5>
-            <img src="img/journey1.png"  alt="" id="journyimage"/>
+            <img src="img/journey1.png"  alt="" id="journyimage"class="md:5/6 "/>
             
             <p id="textJ">
-            -SIGN UP as SNIPER<br>
-            -APPLY<br>
-            -GET your Score<br>
-            -know where you should HUNT<br>
+            -SIGN UP as SNIPER.<br>
+            -APPLY.<br>
+            -GET your Score.<br>
+            -know where you should HUNT.<br>
 
             </p>
           </div>
@@ -118,13 +118,13 @@
 
           <!-- member 3 -->
           <div
-            class="flex flex-col items-center p-6 space-y-6 rounded-lg  md:flex md:w-1/3 sm:mt-16 " id="journyimage" 
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg  md:flex md:w-1/3 sm:mt-16" id="journyimage" 
           >
           <h5 class="text-lg font-bold">3ST: <a class="text-darkRed">GROW</a></h5>
           <img src="img/journey3.png" id="journyimage"  alt="" />
-            <p id="textJ">
+            <p id="Journey3"class="text">
             When your businesses matures, we provide financial solutions to give you the opportunity to expand and grow, such As:
-            Direct investment – crowded funding - angel investor -family fund.
+            Direct investment, crowded funding, angel investor, family fund.
             </p>
           </div>
           <!-- member 4-->
