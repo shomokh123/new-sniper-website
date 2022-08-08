@@ -11,23 +11,24 @@
     @vite('resources/js/script.js')
   </head>
   <body>
-  <nav class="relative container mx-auto p-6">
+<!-- Navbar -->
+<nav id="Home"class="relative container mx-auto p-6">
       <!-- Flex container -->
       <div class="flex items-center justify-between">
         <!-- Logo -->
         <div class="pt-2">
-          <img class= "md:1/2 h-32 w-32" src="img/SniperLogo.jpeg" alt="" />
+          <img class= "md:1/2 h-32 w-32" src="img/SniperLogo1.SVG" alt="" />
+          
         </div>
         <!-- Menu Items -->
-        <div class="hidden space-x-6 md:flex">
-          <a href="#" class="hover:text-darkGrayishBlue">HOME</a>
+        <div class="hidden space-x-6 text-sm md:flex">
+          <a href="#Home" class="hover:text-darkGrayishBlue">HOME</a>
           <a href="#" class="hover:text-darkGrayishBlue">ABOUT US</a>
-          <a href="#" class="hover:text-darkGrayishBlue">SERVICES</a>
-          <a href="#" class="hover:text-darkGrayishBlue"> PARTNERS</a>
-          <a href="#" class="hover:text-darkGrayishBlue">CLIENTS</a>
-          <a href="#" class="hover:text-darkGrayishBlue">THE JOURNY</a>
-          <a href="#" class="hover:text-darkGrayishBlue">CONTACT US</a>
-
+          <a href="#services" class="hover:text-darkGrayishBlue">SERVICES</a>
+          <a href="#Partners" class="hover:text-darkGrayishBlue">PARTNERS</a>
+          <a href="#Clients" class="hover:text-darkGrayishBlue">CLIENTS</a>
+          <a href="#" class="hover:text-darkGrayishBlue">THE JOURNEY</a>
+          <a href="#FOOTER" class="hover:text-darkGrayishBlue">CONTACT US</a>
         </div>
         <!-- Button -->
         <a
@@ -53,16 +54,16 @@
           id="menu"
           class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
         >
-        <a href="#" class="hover:text-darkGrayishBlue">HOME</a>
-        <a href="#" class="hover:text-darkGrayishBlue">ABOUT US</a>
-          <a href="#" class="hover:text-darkGrayishBlue">SERVICES</a>
-          <a href="#" class="hover:text-darkGrayishBlue">PARTNERS</a>
-          <a href="#" class="hover:text-darkGrayishBlue">CLIENTS</a>
-          <a href="#" class="hover:text-darkGrayishBlue">OUR JOURNY</a>
-          <a href="#" class="hover:text-darkGrayishBlue">CONTACT US</a>
+         <a href="#Home" class="hover:text-darkGrayishBlue">HOME</a>
+          <a href="#" class="hover:text-darkGrayishBlue">ABOUT US</a>
+          <a href="#services" class="hover:text-darkGrayishBlue">SERVICES</a>
+          <a href="#Partners" class="hover:text-darkGrayishBlue">PARTNERS</a>
+          <a href="#Clients" class="hover:text-darkGrayishBlue">CLIENTS</a>
+          <a href="#" class="hover:text-darkGrayishBlue">THE JOURNEY</a>
+          <a href="#FOOTER" class="hover:text-darkGrayishBlue">CONTACT US</a>
         </div>
       </div>
-    </nav>
+    </nav> 
 
         <!-- About us Section -->
     <section id="Aboutus">
@@ -259,7 +260,8 @@
 
   
 
-    <footer class="bg-red-700">
+     <!-- Footer -->
+  <footer id="FOOTER" class="bg-darkRed">
       <!-- Flex Container -->
       <div
         class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0"
@@ -273,33 +275,39 @@
           </div>
           <!-- Logo -->
           <div>
-            <img src="img/SniperLogo.jpeg" class="h-8" alt="" />
+            <img src="img/SniperLogoFooter.SVG" class="h-8 w-8" alt="" />
           </div>
           <!-- Social Links Container -->
           <div class="flex justify-center space-x-4">
-            <!-- Link 1 -->
+            <!-- facebook Link  -->
             <a href="#">
-              <img src="img/icon-facebook.svg" alt="" class="h-8" />
+              <img src="img/icon-facebook.svg" alt="" class="h-6" />
             </a>
-            <!-- Link 2 -->
+            <!-- youtube Link  -->
             <a href="#">
-              <img src="img/icon-youtube.svg" alt="" class="h-8" />
+              <img src="img/icon-youtube.svg" alt="" class="h-6" />
             </a>
-            <!-- Link 3 -->
-            <a href="#">
-              <img src="img/icon-twitter.svg" alt="" class="h-8" />
+            <!-- twitter Link  -->
+            <a href="https://twitter.com/SniperHubCo" target="_blank">
+              <img src="img/icon-twitter.svg" alt="" class="h-6" />
             </a>
-            <!-- Link 4 -->
+            <!-- instagram Link  -->
             <a href="#">
-              <img src="img/icon-pinterest.svg" alt="" class="h-8" />
+              <img src="img/icon-instagram.svg" alt="" class="h-6" />
             </a>
-            <!-- Link 5 -->
-            <a href="#">
-              <img src="img/icon-instagram.svg" alt="" class="h-8" />
+
+              <!-- email Link  -->
+              <a href="mailto:Projects@bdd.com.sa">
+              <img src="img/icon-email.svg" alt="" class="h-6" />
+            </a>
+
+              <!-- phone Link  -->
+              <a href="tel:+966501422999">
+              <img src="img/icon-phone.svg" alt="" class="h-6" />
             </a>
           </div>
         </div>
-        <!-- List Container -->
+        <!-- Mnue List Container -->
         <div class="flex justify-around space-x-32">
           <div class="flex flex-col space-y-3 text-white">
             <a href="#" class="hover:text-brightRed">HOME</a>
@@ -314,9 +322,9 @@
           </div>
         </div>
       
-        <!-- Input Container -->
+        <!-- Copyright -->
         <div class="flex flex-col justify-between">
-          
+       
           <div class="hidden text-white md:block">
             Copyright &copy; 2022, All Rights Reserved
           </div>
@@ -325,6 +333,7 @@
     </footer>
 
     <script src="js/script.js"></script>
+
 
     
 </body>
