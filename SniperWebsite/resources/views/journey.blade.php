@@ -122,7 +122,7 @@
           >
           <h5 class="text-lg font-bold">3ST: <a class="text-darkRed">GROW</a></h5>
           <img src="img/journey3.png" id="journyimage"  alt="" />
-            <p id="Journey3"class="text">
+            <p id="Journey3"class="text-5xl">
             When your businesses matures, we provide financial solutions to give you the opportunity to expand and grow, such As:
             Direct investment, crowded funding, angel investor, family fund.
             </p>
