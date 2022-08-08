@@ -319,7 +319,7 @@
 
 <!-- Partners -->
 
-<div id="Clients" class="max-w-6xl px-5 mx-auto mt-32 text-center">
+<div id="Partners" class="max-w-6xl px-5 mx-auto mt-32 text-center">
 <h2 class="text-4xl font-bold text-center">Our Partners Focus On Your <a class="text-darkRed">Success</a></h2>
         </div>  
 
@@ -380,13 +380,6 @@
                 </div>
             </div>
 
-               <!--Seventh-->
-               <div class="swiper-slide">
-                <div class="testi-item">
-                    <img src="img/ZahaaIcon.svg">
-              
-                </div>
-            </div>
                   <!-- end-->
 
               </div>
@@ -405,42 +398,42 @@
         Our <a class="text-darkRed">Clients</a>  Who Make Us Proud </h2>
         </div>  
 
-<section class="bg-white lg:px-[200px] py-20 lg:py-[120px]">
+<section  class="bg-white lg:px-[200px] py-20 lg:py-[120px]">
    <div class="container">
       <div class="flex flex-wrap -mx-4 ">
          <div class="w-full px-4">
             <div class="flex flex-wrap justify-center items-center">
                <!-- First -->
                <a class="w-[150px] 2xl:w-[180px] py-5 flex items-center justify-center mx-4">
-                  <img src="img/coffeeIcon.svg" alt="image" class="w-full h-16"/>
+                  <img src="img/coffeeIcon.svg" alt="image" class="w-full h-full"/>
                </a>
 
                <!-- Second -->
                <a class="w-[150px] 2xl:w-[180px] py-5 flex items-center justify-center mx-4">
-                  <img src="img/antaderkIcon.svg" alt="image" class="w-full h-16"/>
+                  <img src="img/antaderkIcon.svg" alt="image" class="w-full h-full"/>
                </a>
 
                <!-- third -->
                <a class="w-[150px] 2xl:w-[180px] py-5 flex items-center justify-center mx-4">
-                  <img src="img/mysteryIcon.svg" alt="image" class="w-full h-16"/>
+                  <img src="img/mysteryIcon.svg" alt="image" class="w-full h-full"/>
                </a>
 
 
                <!-- fourth -->
                <a class="w-[150px] 2xl:w-[180px] py-5 flex items-center justify-center mx-4">
-                  <img src="img/xpokrIcon.svg" alt="image" class="w-full h-16"/>
+                  <img src="img/xpokrIcon.svg" alt="image" class="w-full h-full"/>
                </a>
                
 
                <!-- fivth -->
                <a class="w-[150px] 2xl:w-[180px] py-5 flex items-center justify-center mx-4">
-                  <img src="img/sultanIcon.svg" alt="image" class="w-full h-16"/>
+                  <img src="img/sultanIcon.svg" alt="image" class="w-full h-full"/>
                </a>
 
                  <!-- sixth -->
                  <!-- fivth -->
                <a class="w-[150px] 2xl:w-[180px] py-5 flex items-center justify-center mx-4">
-                  <img src="img/arabiaIcon.svg" alt="image" class="w-full h-16"/>
+                  <img src="img/arabiaIcon.svg" alt="image" class="w-full h-full"/>
                </a>
 
             </div>
@@ -448,8 +441,6 @@
       </div>
    </div>
 </section>
-<!-- ====== Brands Section End -->
-  
 
    <!-- CTA Section -->
    <section id="cta" class="  relative bg-red-300">
@@ -473,6 +464,7 @@
         </div>
       </div>
     </section>
+
 
   <!-- Footer -->
   <footer id="FOOTER" class="bg-darkRed">
