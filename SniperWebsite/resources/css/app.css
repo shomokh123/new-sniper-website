@@ -196,9 +196,17 @@ background-color:#FDEAE9 ;
   /*journy image*/
 
 
-  #journey{
-    background-image: url('../img/journeyphases.PNG');
-    background-repeat: no-repeat;
-    background-size: 1000px;
-    background-position: 50% 50%;
-  }
+  #journyimage{
+    width: 100%;
+text-align: center;
+padding-bottom: 0%;
+margin-bottom: 15%; 
+ }
+#textJ{
+margin-top: -80%;
+font-size: 108%;
+padding-left: 0%;
+
+
+}
+ 

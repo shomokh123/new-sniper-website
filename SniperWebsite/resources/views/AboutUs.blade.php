@@ -11,23 +11,24 @@
     @vite('resources/js/script.js')
   </head>
   <body>
-  <nav class="relative container mx-auto p-6">
+<!-- Navbar -->
+<nav id="Home"class="relative container mx-auto p-6">
       <!-- Flex container -->
       <div class="flex items-center justify-between">
         <!-- Logo -->
         <div class="pt-2">
-          <img class= "md:1/2 h-32 w-32" src="img/SniperLogo.jpeg" alt="" />
+          <img class= "md:1/2 h-32 w-32" src="img/SniperLogo1.SVG" alt="" />
+          
         </div>
         <!-- Menu Items -->
-        <div class="hidden space-x-6 md:flex">
-          <a href="#" class="hover:text-darkGrayishBlue">HOME</a>
+        <div class="hidden space-x-6 text-sm md:flex">
+          <a href="#Home" class="hover:text-darkGrayishBlue">HOME</a>
           <a href="#" class="hover:text-darkGrayishBlue">ABOUT US</a>
-          <a href="#" class="hover:text-darkGrayishBlue">SERVICES</a>
-          <a href="#" class="hover:text-darkGrayishBlue"> PARTNERS</a>
-          <a href="#" class="hover:text-darkGrayishBlue">CLIENTS</a>
-          <a href="#" class="hover:text-darkGrayishBlue">THE JOURNY</a>
-          <a href="#" class="hover:text-darkGrayishBlue">CONTACT US</a>
-
+          <a href="#services" class="hover:text-darkGrayishBlue">SERVICES</a>
+          <a href="#Partners" class="hover:text-darkGrayishBlue">PARTNERS</a>
+          <a href="#Clients" class="hover:text-darkGrayishBlue">CLIENTS</a>
+          <a href="#" class="hover:text-darkGrayishBlue">THE JOURNEY</a>
+          <a href="#FOOTER" class="hover:text-darkGrayishBlue">CONTACT US</a>
         </div>
         <!-- Button -->
         <a
@@ -53,16 +54,16 @@
           id="menu"
           class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
         >
-        <a href="#" class="hover:text-darkGrayishBlue">HOME</a>
-        <a href="#" class="hover:text-darkGrayishBlue">ABOUT US</a>
-          <a href="#" class="hover:text-darkGrayishBlue">SERVICES</a>
-          <a href="#" class="hover:text-darkGrayishBlue">PARTNERS</a>
-          <a href="#" class="hover:text-darkGrayishBlue">CLIENTS</a>
-          <a href="#" class="hover:text-darkGrayishBlue">OUR JOURNY</a>
-          <a href="#" class="hover:text-darkGrayishBlue">CONTACT US</a>
+         <a href="#Home" class="hover:text-darkGrayishBlue">HOME</a>
+          <a href="#" class="hover:text-darkGrayishBlue">ABOUT US</a>
+          <a href="#services" class="hover:text-darkGrayishBlue">SERVICES</a>
+          <a href="#Partners" class="hover:text-darkGrayishBlue">PARTNERS</a>
+          <a href="#Clients" class="hover:text-darkGrayishBlue">CLIENTS</a>
+          <a href="#" class="hover:text-darkGrayishBlue">THE JOURNEY</a>
+          <a href="#FOOTER" class="hover:text-darkGrayishBlue">CONTACT US</a>
         </div>
       </div>
-    </nav>
+    </nav> 
 
         <!-- About us Section -->
     <section id="Aboutus">
