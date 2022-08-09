@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\journeyController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,17 +14,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
 
-Route::get('/Aboutus', function () {
-    return view('AboutUs');
-});
-Route::get('/journey', function () {
-    return view('SniperJourney');
-});
 
+
+ 
+Route::get('/journey','App\Http\Controllers\journeyController@sniperj');
+
+Route::get('/Aboutus','App\Http\Controllers\AboutusController@sniperA');
+
+Route::get('/','App\Http\Controllers\HomeController@sniperH');
+//Route::get('/services','App\Http\Controllers\ServiceController@sniperS');
+
+Route::get('/', 'App\Http\Controllers\ServiceController@sniperS')->name('sniperS');
 
 
 

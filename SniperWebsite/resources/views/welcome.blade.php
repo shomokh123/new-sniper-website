@@ -32,12 +32,12 @@
         </div>
         <!-- Menu Items -->
         <div class="hidden space-x-6 text-sm md:flex">
-          <a href="#Home" class="hover:text-darkGrayishBlue">HOME</a>
-          <a href="#" class="hover:text-darkGrayishBlue">ABOUT US</a>
+          <a href="{{ url('/')}}" class="hover:text-darkGrayishBlue">HOME</a>
+          <a href="{{ url('/Aboutus')}}" class="hover:text-darkGrayishBlue">ABOUT US</a>
           <a href="#services" class="hover:text-darkGrayishBlue">SERVICES</a>
           <a href="#Partners" class="hover:text-darkGrayishBlue">PARTNERS</a>
           <a href="#Clients" class="hover:text-darkGrayishBlue">CLIENTS</a>
-          <a href="#" class="hover:text-darkGrayishBlue">THE JOURNEY</a>
+          <a href="{{ url('/journey')}}" class="hover:text-darkGrayishBlue">THE JOURNEY</a>
           <a href="#FOOTER" class="hover:text-darkGrayishBlue">CONTACT US</a>
         </div>
         <!-- Button -->
@@ -64,12 +64,12 @@
           id="menu"
           class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
         >
-         <a href="#Home" class="hover:text-darkGrayishBlue">HOME</a>
-          <a href="#" class="hover:text-darkGrayishBlue">ABOUT US</a>
+         <a href="{{ url('/')}}" class="hover:text-darkGrayishBlue">HOME</a>
+          <a href="{{ url('/Aboutus')}}" class="hover:text-darkGrayishBlue">ABOUT US</a>
           <a href="#services" class="hover:text-darkGrayishBlue">SERVICES</a>
           <a href="#Partners" class="hover:text-darkGrayishBlue">PARTNERS</a>
           <a href="#Clients" class="hover:text-darkGrayishBlue">CLIENTS</a>
-          <a href="#" class="hover:text-darkGrayishBlue">THE JOURNEY</a>
+          <a href="{{ url('/journey')}}" class="hover:text-darkGrayishBlue">THE JOURNEY</a>
           <a href="#FOOTER" class="hover:text-darkGrayishBlue">CONTACT US</a>
         </div>
       </div>
@@ -520,14 +520,14 @@
         <!-- Mnue List Container -->
         <div class="flex justify-around space-x-32">
           <div class="flex flex-col space-y-3 text-white">
-            <a href="#" class="hover:text-brightRed">HOME</a>
-            <a href="#" class="hover:text-brightRed">ABOUT US</a>
+            <a href="{{ url('/')}}" class="hover:text-brightRed">HOME</a>
+            <a href="{{ url('/Aboutus')}}" class="hover:text-brightRed">ABOUT US</a>
             <a href="#" class="hover:text-brightRed">SERVICES</a>
             <a href="#" class="hover:text-brightRed">PARTNERS</a>
           </div>
           <div class="flex flex-col space-y-3 text-white">
             <a href="#" class="hover:text-brightRed">CLIENTS</a>
-            <a href="#" class="hover:text-brightRed">THE JOURNEY</a>
+            <a href="{{ url('/journey')}}" class="hover:text-brightRed">THE JOURNEY</a>
             <a href="#" class="hover:text-brightRed">CONTACT US</a>
           </div>
         </div>
