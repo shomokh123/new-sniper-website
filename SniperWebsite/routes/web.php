@@ -24,9 +24,7 @@ Route::get('/journey', function () {
     return view('SniperJourney');
 });
 
-Route::get('/theJourney', function () {
-    return view('theJourney');
-});
+
 
 
 Route::get('/getStarted', function () {
