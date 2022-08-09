@@ -38,9 +38,9 @@
         <div class="hidden space-x-6 text-sm md:flex">
           <a href="{{ url('/')}}" class="hover:text-darkGrayishBlue">HOME</a>
           <a href="{{ url('/Aboutus')}}" class="hover:text-darkGrayishBlue">ABOUT US</a>
-          <a href="#services" class="hover:text-darkGrayishBlue">SERVICES</a>
-          <a href="#Partners" class="hover:text-darkGrayishBlue">PARTNERS</a>
-          <a href="#Clients" class="hover:text-darkGrayishBlue">CLIENTS</a>
+          <a href="{{ url('/#services')}}" class="hover:text-darkGrayishBlue">SERVICES</a>
+          <a href="{{ url('/#Partners')}}" class="hover:text-darkGrayishBlue">PARTNERS</a>
+          <a href="{{ url('/#Clients')}}" class="hover:text-darkGrayishBlue">CLIENTS</a>
           <a href="{{ url('/journey')}}" class="hover:text-darkGrayishBlue">THE JOURNEY</a>
           <a href="#FOOTER" class="hover:text-darkGrayishBlue">CONTACT US</a>
         </div>
@@ -70,9 +70,9 @@
         >
          <a href="{{ url('/')}}" class="hover:text-darkGrayishBlue">HOME</a>
           <a href="{{ url('/Aboutus')}}" class="hover:text-darkGrayishBlue">ABOUT US</a>
-          <a href="#services" class="hover:text-darkGrayishBlue">SERVICES</a>
-          <a href="#Partners" class="hover:text-darkGrayishBlue">PARTNERS</a>
-          <a href="#Clients" class="hover:text-darkGrayishBlue">CLIENTS</a>
+          <a href="{{ url('/#services')}}" class="hover:text-darkGrayishBlue">SERVICES</a>
+          <a href="{{ url('/#Partners')}}" class="hover:text-darkGrayishBlue">PARTNERS</a>
+          <a href="{{ url('/#Clients')}}" class="hover:text-darkGrayishBlue">CLIENTS</a>
           <a href="{{ url('/journey')}}" class="hover:text-darkGrayishBlue">THE JOURNEY</a>
           <a href="#FOOTER" class="hover:text-darkGrayishBlue">CONTACT US</a>
         </div>
@@ -293,13 +293,13 @@
           <div class="flex flex-col space-y-3 text-white">
             <a href="{{ url('/')}}" class="hover:text-brightRed">HOME</a>
             <a href="{{ url('/Aboutus')}}" class="hover:text-brightRed">ABOUT US</a>
-            <a href="#" class="hover:text-brightRed">SERVICES</a>
-            <a href="#" class="hover:text-brightRed">PARTNERS</a>
+            <a href="{{ url('/#services')}}" class="hover:text-brightRed">SERVICES</a>
+            <a href="{{ url('/#Partners')}}" class="hover:text-brightRed">PARTNERS</a>
           </div>
           <div class="flex flex-col space-y-3 text-white">
-            <a href="#" class="hover:text-brightRed">CLIENTS</a>
+            <a href="{{ url('/#Clients')}}" class="hover:text-brightRed">CLIENTS</a>
             <a href="{{ url('/journey')}}" class="hover:text-brightRed">THE JOURNEY</a>
-            <a href="#" class="hover:text-brightRed">CONTACT US</a>
+            <a href="#FOOTER" class="hover:text-brightRed">CONTACT US</a>
           </div>
         </div>
       

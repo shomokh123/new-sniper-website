@@ -26,9 +26,10 @@ Route::get('/journey','App\Http\Controllers\journeyController@sniperj');
 Route::get('/Aboutus','App\Http\Controllers\AboutusController@sniperA');
 
 Route::get('/','App\Http\Controllers\HomeController@sniperH');
+
 //Route::get('/services','App\Http\Controllers\ServiceController@sniperS');
 
-Route::get('/', 'App\Http\Controllers\ServiceController@sniperS')->name('sniperS');
+//Route::get('/', 'App\Http\Controllers\ServiceController@sniperS')->name('sniperS');
 
 
 

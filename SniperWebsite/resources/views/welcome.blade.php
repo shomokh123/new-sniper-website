@@ -522,13 +522,13 @@
           <div class="flex flex-col space-y-3 text-white">
             <a href="{{ url('/')}}" class="hover:text-brightRed">HOME</a>
             <a href="{{ url('/Aboutus')}}" class="hover:text-brightRed">ABOUT US</a>
-            <a href="#" class="hover:text-brightRed">SERVICES</a>
-            <a href="#" class="hover:text-brightRed">PARTNERS</a>
+            <a href="#services" class="hover:text-brightRed">SERVICES</a>
+            <a href="#Partners" class="hover:text-brightRed">PARTNERS</a>
           </div>
           <div class="flex flex-col space-y-3 text-white">
-            <a href="#" class="hover:text-brightRed">CLIENTS</a>
+            <a href="#Clients" class="hover:text-brightRed">CLIENTS</a>
             <a href="{{ url('/journey')}}" class="hover:text-brightRed">THE JOURNEY</a>
-            <a href="#" class="hover:text-brightRed">CONTACT US</a>
+            <a href="#FOOTER" class="hover:text-brightRed">CONTACT US</a>
           </div>
         </div>
       
