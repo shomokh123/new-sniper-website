@@ -79,7 +79,6 @@
       </div>
     </nav>
 
-    
     <section >
     <h2 class="text-4xl font-bold text-center"> <a class="text-darkRed">The</a> Journey</h2>
 
@@ -232,6 +231,7 @@
   </div>
 </div>
     </section>
+        
      
 
      <!-- Footer -->

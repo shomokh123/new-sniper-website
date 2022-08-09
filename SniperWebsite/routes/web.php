@@ -23,3 +23,8 @@ Route::get('/Aboutus', function () {
 Route::get('/journey', function () {
     return view('journey');
 });
+
+Route::get('/theJourney', function () {
+    return view('theJourney');
+});
+
