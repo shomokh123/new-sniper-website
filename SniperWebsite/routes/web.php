@@ -21,7 +21,7 @@ Route::get('/Aboutus', function () {
     return view('AboutUs');
 });
 Route::get('/journey', function () {
-    return view('journey');
+    return view('SniperJourney');
 });
 
 Route::get('/theJourney', function () {
