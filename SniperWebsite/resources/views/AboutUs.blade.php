@@ -91,6 +91,262 @@
       </div>
     </section>
 
+
+
+         <!-- Sniper team -->
+
+    <div class="container flex justify-center mx-auto pt-16">
+                    <div>
+                        <h2 class="text-4xl font-bold text-center pb-16"> Meet Our <a class="text-darkRed">Professional</a> Team</h2>
+                    </div>
+                </div>
+                <div class="w-full bg-gray-100 dark:bg-white px-10 pt-10">
+                    <div class="container mx-auto">
+                        <div role="list" aria-label="Behind the scenes People " class="lg:flex md:flex sm:flex items-center xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around">
+                          
+                            <!--Member 1-->
+                            <div role="listitem" class="xl:w-1/3 lg:mx-3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                                <div class="rounded overflow-hidden shadow-md bg-white dark:bg-red-100">
+                                    <div class="absolute -mt-20 w-full flex justify-center">
+                                        <div class="h-32 w-32">
+                                            <img src="img/3.jpg" alt="Display Picture of Silene Tokyo" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                                        </div>
+                                    </div>
+                                    <div class="px-6 mt-16">
+                                        <h1 class="font-bold dark:text-black text-3xl text-center mb-1">DALAL NASSER</h1>
+                                        <p class="text-gray-800 dark:text-black text-sm text-center">MARKETING</p>
+                                        <div class="w-full flex justify-center pt-5 pb-5">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Member 2-->
+
+                            <div role="listitem" class="xl:w-1/3 lg:mx-3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                                <div class="rounded overflow-hidden shadow-md bg-white dark:bg-red-100">
+                                    <div class="absolute -mt-20 w-full flex justify-center">
+                                        <div class="h-32 w-32">
+                                            <img src="img/3.jpg" alt="Display Picture of Silene Tokyo" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                                        </div>
+                                    </div>
+                                    <div class="px-6 mt-16">
+                                        <h1 class="font-bold dark:text-black text-3xl text-center mb-1">DR.SARA AL-HMOOD</h1>
+                                        <p class="text-gray-800 dark:text-black text-sm text-center">ARTIFICIAL INTILLEGENCE</p>
+                                        <div class="w-full flex justify-center pt-5 pb-5">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div role="listitem" class="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                                <div class="rounded overflow-hidden shadow-md bg-white dark:bg-red-100">
+                                    <div class="absolute -mt-20 w-full flex justify-center">
+                                        <div class="h-32 w-32">
+                                        <img src="img/3.jpg" alt="Display Picture of Silene Tokyo" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                                        </div>
+                                    </div>
+                                    <div class="px-6 mt-16">
+                                        <h1 class="font-bold dark:text-black text-3xl text-center mb-1">JAWAHER ALMOOH</h1>
+                                        <p class="text-gray-800 dark:text-black text-sm text-center">PROJECT MANAGER</p>
+                                        <div class="w-full flex justify-center pt-5 pb-5">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Member 3-->
+
+                            <div role="listitem" class="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                                <div class="rounded overflow-hidden shadow-md bg-white dark:bg-red-100">
+                                    <div class="absolute -mt-20 w-full flex justify-center">
+                                        <div class="h-32 w-32">
+                                        <img src="img/3.jpg" alt="Display Picture of Silene Tokyo" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                                        </div>
+                                    </div>
+                                    <div class="px-6 mt-16">
+                                        <h1 class="font-bold dark:text-black text-3xl text-center mb-1">MAJEDAH ALKENANI</h1>
+                                        <p class="text-gray-800 dark:text-black text-sm text-center">HR ADVISOR</p>
+                                        <div class="w-full flex justify-center pt-5 pb-5">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Member 4-->
+
+                            <div role="listitem" class="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                                <div class="rounded overflow-hidden shadow-md bg-white dark:bg-red-100">
+                                    <div class="absolute -mt-20 w-full flex justify-center">
+                                        <div class="h-32 w-32">
+                                        <img src="img/6.jpg" alt="Display Picture of Charles Keith" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                                        </div>
+                                    </div>
+                                    <div class="px-6 mt-16">
+                                        <h1 class="font-bold dark:text-black text-3xl text-center mb-1">AHMAD AL-DAEJ</h1>
+                                        <p class="text-gray-800 dark:text-black text-sm text-center">GOVERNANCE</p>
+                                        <div class="w-full flex justify-center pt-5 pb-5">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Member 5-->
+
+                            <div role="listitem" class="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                                <div class="rounded overflow-hidden shadow-md bg-white dark:bg-red-100">
+                                    <div class="absolute -mt-20 w-full flex justify-center">
+                                        <div class="h-32 w-32">
+                                        <img src="img/3.jpg" alt="Display Picture of Silene Tokyo" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                                        </div>
+                                    </div>
+                                    <div class="px-6 mt-16">
+                                        <h1 class="font-bold dark:text-black text-3xl text-center mb-1">DR.EMAN ALSHAMMARI</h1>
+                                        <p class="text-gray-800 dark:text-black text-sm text-center">MARKETING</p>
+                                        <div class="w-full flex justify-center pt-5 pb-5">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Member 6-->
+
+                            <div role="listitem" class="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                                <div class="rounded overflow-hidden shadow-md bg-white dark:bg-red-100">
+                                    <div class="absolute -mt-20 w-full flex justify-center">
+                                        <div class="h-32 w-32">
+                                        <img src="img/6.jpg" alt="Display Picture of Charles Keith" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                                        </div>
+                                    </div>
+                                    <div class="px-6 mt-16">
+                                        <h1 class="font-bold dark:text-black text-3xl text-center mb-1">JASSIM HAROON</h1>
+                                        <p class="text-gray-800 dark:text-black text-sm text-center">FAINANCE ADVISOR</p>
+                                        <div class="w-full flex justify-center pt-5 pb-5">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Member 7-->
+
+
+                            <div role="listitem" class="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                                <div class="rounded overflow-hidden shadow-md bg-white dark:bg-red-100">
+                                    <div class="absolute -mt-20 w-full flex justify-center">
+                                        <div class="h-32 w-32">
+                                        <img src="img/6.jpg" alt="Display Picture of Charles Keith" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                                        </div>
+                                    </div>
+                                    <div class="px-6 mt-16">
+                                        <h1 class="font-bold dark:text-black text-3xl text-center mb-1">MAJED RUSHDI</h1>
+                                        <p class="text-gray-800 dark:text-black text-sm text-center">MARKETING ADVISOR</p>
+                                        <div class="w-full flex justify-center pt-5 pb-5">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Member 8-->
+                            
+                            <div role="listitem" class="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                                <div class="rounded overflow-hidden shadow-md bg-white dark:bg-red-100">
+                                    <div class="absolute -mt-20 w-full flex justify-center">
+                                        <div class="h-32 w-32">
+                                        <img src="img/6.jpg" alt="Display Picture of Charles Keith" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                                        </div>
+                                    </div>
+                                    <div class="px-6 mt-16">
+                                        <h1 class="font-bold dark:text-black text-3xl text-center mb-1">YOUSIF AL-HARBI</h1>
+                                        <p class="text-gray-800 dark:text-black text-sm text-center">BUSINESS STRATEGIST</p>
+                                        <div class="w-full flex justify-center pt-5 pb-5"> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Member 9-->
+
+                            <div role="listitem" class="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                                <div class="rounded overflow-hidden shadow-md bg-white dark:bg-red-100">
+                                    <div class="absolute -mt-20 w-full flex justify-center">
+                                        <div class="h-32 w-32">
+                                        <img src="img/6.jpg" alt="Display Picture of Charles Keith" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                                        </div>
+                                    </div>
+                                    <div class="px-6 mt-16">
+                                        <h1 class="font-bold dark:text-black text-3xl text-center mb-1">WALEED AL-NOUH</h1>
+                                        <p class="text-gray-800 dark:text-black text-sm text-center">FAINANCE ADVISORE</p>
+                                        <div class="w-full flex justify-center pt-5 pb-5"> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Member 10-->
+
+                            <div role="listitem" class="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                                <div class="rounded overflow-hidden shadow-md bg-white dark:bg-red-100">
+                                    <div class="absolute -mt-20 w-full flex justify-center">
+                                        <div class="h-32 w-32">
+                                        <img src="img/6.jpg" alt="Display Picture of Charles Keith" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                                        </div>
+                                    </div>
+                                    <div class="px-6 mt-16">
+                                        <h1 class="font-bold dark:text-black text-3xl text-center mb-1">MOHMED ALZAHRANI</h1>
+                                        <p class="text-gray-800 dark:text-black text-sm text-center">FAINANCE</p>
+                                        <div class="w-full flex justify-center pt-5 pb-5"> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Member 11-->
+
+                            <div role="listitem" class="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                                <div class="rounded overflow-hidden shadow-md bg-white dark:bg-red-100">
+                                    <div class="absolute -mt-20 w-full flex justify-center">
+                                        <div class="h-32 w-32">
+                                        <img src="img/6.jpg" alt="Display Picture of Charles Keith" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                                        </div>
+                                    </div>
+                                    <div class="px-6 mt-16">
+                                        <h1 class="font-bold dark:text-black text-3xl text-center mb-1">MOHAMED ABUZAIED</h1>
+                                        <p class="text-gray-800 dark:text-black text-sm text-center">OPERATION</p>
+                                        <div class="w-full flex justify-center pt-5 pb-5"> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Member 12-->
+
+                            <div role="listitem" class="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
+                                <div class="rounded overflow-hidden shadow-md bg-white dark:bg-red-100">
+                                    <div class="absolute -mt-20 w-full flex justify-center">
+                                        <div class="h-32 w-32">
+                                            <img src="img/6.jpg" alt="Display Picture of Charles Keith" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                                        </div>
+                                    </div>
+                                    <div class="px-6 mt-16">
+                                        <h1 class="font-bold dark:text-black text-3xl text-center mb-1">MOHAMMED ALHOSAN</h1>
+                                        <p class="text-gray-800 dark:text-black text-sm text-center">LOGISTICS</p>
+                                        <div class="w-full flex justify-center pt-5 pb-5"> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+         
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+
+
+
      <!-- Sniper team -->
     <section id="sniperteam" >
       <!-- Container to heading and testm blocks -->
@@ -338,3 +594,5 @@
     
 </body>
 </html>
+
+

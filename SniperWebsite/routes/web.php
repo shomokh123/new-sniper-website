@@ -28,3 +28,7 @@ Route::get('/theJourney', function () {
     return view('theJourney');
 });
 
+
+Route::get('/getStarted', function () {
+    return view('getStarted');
+});
