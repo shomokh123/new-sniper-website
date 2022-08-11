@@ -41,3 +41,12 @@ Route::post('/store', 'App\Http\Controllers\GeneralFormController@store');
 
 //Route::post('formStore','App\Http\Controllers\GeneralFormController@store');
 
+
+
+Route::get('/request', function () {
+    return view('requestTable');
+});
+
+Route::get('/viewR', function () {
+    return view('viewRequest');
+});
