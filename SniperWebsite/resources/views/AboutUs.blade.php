@@ -32,7 +32,7 @@
         </div>
         <!-- Button -->
         <a
-          href="#"
+        href="{{ url('/getStarted')}}"
           class="hidden p-3 px-6 pt-2 text-white bg-darkRed rounded-full baseline hover:bg-brightRed md:block"
           >Get Started</a
         >

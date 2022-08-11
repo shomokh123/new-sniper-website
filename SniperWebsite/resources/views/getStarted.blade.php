@@ -15,14 +15,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
   <script src="scripts.js"></script>
 
-    <title>Sniper Landing Page</title>
+    <title>Get Started</title>
     @vite('resources/css/app.css')
     @vite('resources/js/script.js')
   </head>
 
   <body>
     <!-- Navbar -->
-    <nav id="Home"class="relative container mx-auto p-6">
+    <nav id="Home"class="relative container mx-auto px-6">
       <!-- Flex container -->
       <div class="flex items-center justify-between">
         <!-- Logo -->
@@ -33,92 +33,222 @@
 
     
     </nav>
+	
+<!--
+  This component uses @tailwindcss/forms
+
+  yarn add @tailwindcss/forms
+  npm install @tailwindcss/forms
+
+  plugins: [require('@tailwindcss/forms')]
+-->
 
 
 
-    <div tabindex="0" aria-label="form" class="focus:outline-none w-full bg-white p-10">
-            <div class="md:flex items-center border-b pb-6 border-gray-200">
-                <div  class="flex items-center md:mt-0 mt-4">
-                    <div class="w-8 h-8 bg-indigo-700 rounded flex items-center justify-center">
-                        <p  tabindex="0" class="focus:outline-none text-base font-medium leading-none text-white">01</p>
-                    </div>
-                    <p  tabindex="0" class="focus:outline-none text-base ml-3 font-medium leading-4 text-gray-800">Sign Up</p>
-                </div>
-                <div  class="flex items-center md:mt-0 mt-4 md:ml-12">
-                    <div class="w-8 h-8 bg-gray-100 rounded flex items-center justify-center">
-                        <p tabindex="0" class="focus:outline-none text-base font-medium leading-none text-gray-800">02</p>
-                    </div>
-                    <p tabindex="0" class="focus:outline-none text-base ml-3 font-medium leading-4 text-gray-800">Security Check</p>
-                </div>
-                <div  class="flex items-center md:mt-0 mt-4 md:ml-12">
-                    <div class="w-8 h-8 bg-gray-100 rounded flex items-center justify-center">
-                        <p tabindex="0" class="focus:outline-none text-base font-medium leading-none text-gray-800">03</p>
-                    </div>
-                    <p tabindex="0" class="focus:outline-none text-base ml-3 font-medium leading-4 text-gray-800">Confirm Info</p>
-                </div>
-                <div  class="flex items-center md:mt-0 mt-4 md:ml-12">
-                    <div class="w-8 h-8 bg-gray-100 rounded flex items-center justify-center">
-                        <p tabindex="0" class="focus:outline-none text-base font-medium leading-none text-gray-800">04</p>
-                    </div>
-                    <p tabindex="0" class="focus:outline-none text-base ml-3 font-medium leading-4 text-gray-800">Onboarding</p>
-                </div>
-            </div>
-            <h1 tabindex="0" role="heading" aria-label="profile information" class="focus:outline-none text-3xl font-bold text-gray-800 mt-12">Profile info</h1>
-            <p    tabindex="0" class=" focus:outline-none text-sm font-light leading-tight text-gray-600 mt-4">Fill in the data for profile. It will take a couple of minutes. <br />You only need a passport</p>
-            <h2  tabindex="0" class="focus:outline-none text-xl font-semibold leading-7 text-gray-800 mt-10">Personal data</h2>
-            <p tabindex="0" class="focus:outline-none text-sm font-light leading-none text-gray-600 mt-0.5">Your details and place of birth</p>
-            <div class="mt-8 md:flex items-center">
-                <div class="flex flex-col">
-                    <label class="mb-3 text-sm leading-none text-gray-800">First name</label>
-                    <input type="name" tabindex="0" aria-label="Enter first name" class="focus:outline-none focus:ring-2 focus:ring-indigo-400 w-64 bg-gray-100 text-sm font-medium leading-none text-gray-800 p-3 border rounded border-gray-200" value="William" />
-                </div>
-                <div class="flex flex-col md:ml-12 md:mt-0 mt-8">
-                    <label class="mb-3 text-sm leading-none text-gray-800">Last name</label>
-                    <input type="name" tabindex="0" aria-label="Enter last name" class="focus:outline-none focus:ring-2 focus:ring-indigo-400 w-64 bg-gray-100 text-sm font-medium leading-none text-gray-800 p-3 border rounded border-gray-200" value="Smith" />
-                </div>
-            </div>
-            <div class="mt-12 md:flex items-center">
-                <div class="flex flex-col">
-                    <label class="mb-3 text-sm leading-none text-gray-800">Email Address</label>
-                    <input type="email" tabindex="0" aria-label="Enter email Address" class="focus:outline-none focus:ring-2 focus:ring-indigo-400 w-64 bg-gray-100 text-sm font-medium leading-none text-gray-800 p-3 border rounded border-gray-200" value="smith.william@gmail.com" />
-                </div>
-                <div class="flex flex-col md:ml-12 md:mt-0 mt-8">
-                    <label class="mb-3 text-sm leading-none text-gray-800">Phone number</label>
-                    <input type="number" tabindex="0" aria-label="Enter phone number" class="focus:outline-none focus:ring-2 focus:ring-indigo-400 w-64 bg-gray-100 text-sm font-medium leading-none text-gray-800 p-3 border rounded border-gray-200" value="+81 839274" />
-                </div>
-            </div>
-            <div class="mt-12 md:flex items-center">
-                <div class="flex flex-col">
-                    <label class="mb-3 text-sm leading-none text-gray-800">Date of birth</label>
-                    <input type="" tabindex="0" aria-label="Enter date of birth" class="focus:outline-none focus:ring-2 focus:ring-indigo-400 w-64 bg-gray-100 text-sm font-medium leading-none text-gray-800 p-3 border rounded border-gray-200" value="28.03.1997" />
-                </div>
-                <div class="flex flex-col md:ml-12 md:mt-0 mt-8">
-                    <label class="mb-3 text-sm leading-none text-gray-800">Place of birth</label>
-                    <input type="name" tabindex="0" aria-label="Enter place of birth" class="focus:outline-none focus:ring-2 focus:ring-indigo-400 w-64 bg-gray-100 text-sm font-medium leading-none text-gray-800 p-3 border rounded border-gray-200" value="San Diego, CA, USA" />
-                </div>
-            </div>
-            <div class="mt-12">
-                <div class="py-4 flex items-center">
-                    <div class="bg-white dark:bg-gray-800 border rounded-sm border-gray-400 dark:border-gray-700 w-4 h-4 flex flex-shrink-0 justify-center items-center relative">
-                        <input aria-labelledby="agree"  checked type="checkbox" class="focus:outline-none focus:ring-2 focus:ring-gray-700 checkbox focus:opacity-100 opacity-0 absolute cursor-pointer w-full h-full" />
-                        <div class="check-icon hidden bg-blue-500 text-white rounded-sm">
-                           <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/form_layout-svg1.svg" alt="check-icon">
-                        </div>
-                    </div>
-                    <p id="agree" tabindex="0" class="focus:outline-none text-sm leading-none ml-2">I agree with the <span class="text-indigo-700">terms of service</span></p>
-                </div>
-            </div>
-            <button role="button" aria-label="Next step" class="flex items-center justify-center py-4 px-7 focus:outline-none bg-white border rounded border-gray-400 mt-7 md:mt-14 hover:bg-gray-100  focus:ring-2 focus:ring-offset-2 focus:ring-gray-700">
-                <span class="text-sm font-medium text-center text-gray-800 capitalize">Next Step</span>
-               <img class="mt-1 ml-3" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/form_layout-svg2.svg" alt="arrow">
-            </button>
+<!---General info-->
+
+<div class="max-w-screen-xl  px-4 mx-auto sm:px-6 lg:px-8 ">
+  <div class="max-w-lg mx-auto">
+    <h1 class="text-2xl font-bold text-center text-darkRed sm:text-3xl">Get started today</h1>
+
+    <p class="max-w-md mx-auto mt-4 text-center text-gray-500">
+    Every <a class="text-darkRed">Sniper</a> has A story , create yours now
+    </p>
+
+<form method="POST" action="{{ url('/store')}}"  enctype="multipart/form-data"  class="p-8 mt-6 mb-0 space-y-4 rounded-lg shadow-xl" >
+       @csrf
+      <!--<p class="text-lg font-medium text-center">Sign in to your account</p>-->
+
+      <div >
+        <label for="startup_name" class="text-md font-medium">Startup-SMEs Name</label>
+        <div class="relative mt-1">
+          <input type="text" id="startup_name" name="startup_name" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter Startup-SMEs Name"/>
         </div>
-        <style>
-            .checkbox:checked + .check-icon {
-                display: flex;
-            }
-        </style>
-    
+      </div>
+
+      <div >
+        <label for="first_name" class="text-md font-medium">First Name</label>
+        <div class="relative mt-1">
+          <input type="text" id="first_name" name="first_name"  class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter First Name"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="last_name" class="text-md font-medium">Last Name</label>
+        <div class="relative mt-1">
+          <input type="text" id="last_name" name="last_name" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter Last Name"/>
+        </div>
+      </div>
+
+
+      <div>
+        <label for="email" class="text-md font-medium">Email</label>
+        <div class="relative mt-1">
+          <input type="email" id="email" name="email" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter email"/>
+
+          <span class="absolute inset-y-0 inline-flex items-center right-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"/>
+            </svg>
+          </span>
+        </div>
+      </div>
+
+      <div>
+        <label for="mobile_number" class="text-md font-medium">Phone Number</label>
+        <div class="relative mt-1">
+          <input type="tel" id="mobile_number" name="mobile_number" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter Phone Number"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Address" class="text-md font-medium">Address</label>
+        <div class="relative mt-1">
+          <input type="text" id="Address" name="Address" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter Address"/>
+        </div>
+      </div>
+
+
+           <!--- Services --->
+    <div class="flex">
+      <div>
+       <label for="Services" class="text-md font-medium">Services</label>
+
+      <div class="form-check">
+      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"  checked name="Services[]" value="MARKETING">
+      <label class="text-sm font-medium text-black dark:text-black" for="Services[]"  >MARKETING
+      </label>
+      </div>
+
+     <div class="form-check">
+      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"  name="Services[]" value="BUSINESS MODEL">
+      <label class="text-sm font-medium text-black dark:text-black" for="Services[]" >BUSINESS MODEL
+      </label>
+     </div>
+
+     <div class="form-check">
+      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox" name="Services[]" value="OPERATION">
+      <label class="text-sm font-medium text-black dark:text-black" for="Services[]" >OPERATION
+      </label>
+     </div>
+
+     <div class="form-check">
+      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"   name="Services[]" value="FRASIIBILITY STUDY" >
+      <label class="text-sm font-medium text-black dark:text-black" for="Services[]" >FRASIIBILITY STUDY
+      </label>
+     </div>
+
+     <div class="form-check">
+      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"  name="Services[]" value="TECHNOLOGY" >
+      <label class="text-sm font-medium text-black dark:text-black" for="Services[]" >TECHNOLOGY
+      </label>
+     </div>
+
+     <div class="form-check">
+      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"  name="Services[]" value="FRANCHISE" >
+      <label class="text-sm font-medium text-black dark:text-black" for="Services[]" >FRANCHISE
+      </label>
+    </div>
+
+    <div class="form-check">
+      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"   name="Services[]" value="FUNDING" >
+      <label class="text-sm font-medium text-black dark:text-black" for="Services[]" >FUNDING
+      </label>
+     </div>
+
+     <div class="form-check">
+      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"   name="Services[]" value="Offices" >
+      <label class="text-sm font-medium text-black dark:text-black" for="Services[]" >Offices
+      </label>
+     </div>
+
+    </div>
+
+  </div>
+
+
+     <!--- NEEDS --->
+   <div class="flex">
+    <div>
+     <label for="Needs" class="text-md font-medium">Needs</label>
+      <div class="form-check">
+        <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"  checked name="Needs[]" value="Consultation">
+        <label class="form-check-label inline-block text-gray-800" for="Needs[]"  >Consultation
+        </label>
+     </div>
+
+      <div class="form-check">
+      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"   name="Needs[]" value="Mentorship">
+      <label class="form-check-label inline-block text-gray-800" for="Needs[]">Mentorship
+      </label>
+      </div>
+
+      <div class="form-check">
+      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"  name="Needs[]" value="Knowledge">
+      <label class="form-check-label inline-block text-gray-800" for="Needs[]" >Knowledge
+      </label>
+      </div>
+
+      <div class="form-check">
+      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"   name="Needs[]" value="Incubation"  >
+      <label class="form-check-label inline-block text-gray-800" for="Needs[]" >Incubation
+      </label>
+      </div>
+ 
+    </div>
+
+   </div>
+
+
+
+     <!--- Your project phase  --->
+
+      <div>
+        <label for="Address" class="text-md font-medium">Your project phase</label>
+        <div class="relative mt-1">
+
+        <div class="flex items-center mb-2">
+        <input checked id="project_phase" type="radio" value="IDEA" name="project_phase" class="w-4 h-4 text-darkRed border-gray-300 bg-white">
+    <label for="project_phase" class="ml-2 text-sm font-medium text-black dark:text-black">IDEA</label>
+    </div>
+
+  <div class="flex items-center mb-2">
+    <input  id="project_phase" type="radio" value="FEASIBILITY STUDY" name="project_phase" class="w-4 h-4 text-darkRed border-gray-300 bg-white">
+    <label for="project_phase" class="ml-2 text-sm font-medium text-black dark:text-black">FEASIBILITY STUDY</label>
+   </div>
+
+  <div class="flex items-center mb-2">
+  <input id="project_phase" type="radio" value="PRESEED" name="project_phase" class="w-4 h-4 text-darkRed border-gray-300 bg-white">
+    <label for="project_phase" class="ml-2 text-sm font-medium text-black dark:text-black">PRESEED</label>
+  </div>
+
+ <div class="flex items-center mb-2">
+ <input id="project_phase" type="radio" value="SEED PHASE" name="project_phase" class="w-4 h-4 text-darkRed border-gray-300 bg-white">
+    <label for="project_phase" class="ml-2 text-sm font-medium text-black dark:text-black">SEED PHASE</label>
+ </div>
+
+ <div class="flex items-center mb-2">
+ <input id="project_phase" type="radio" value="ROUND A" name="project_phase" class="w-4 h-4 text-darkRed border-gray-300 bg-white">
+    <label for="project_phase" class="ml-2 text-sm font-medium text-black dark:text-black">ROUND A</label>
+ </div>
+
+  <div class="flex items-center mb-2">
+    <input id="project_phase" type="radio" value="SERIES B" name="project_phase" class="w-4 h-4 text-darkRed border-gray-300 bg-white">
+    <label for="project_phase" class="ml-2 text-sm font-medium text-black dark:text-black">SERIES B</label>
+  </div>
+
+    </div>
+      </div>
+
+
+      <button type="submit" class="block w-full px-5 py-3 text-sm font-medium text-white bg-darkRed rounded-lg">
+        SUBMIT
+      </button>
+</form>
+
+  </div>
+</div>
+
       
 
   </body>

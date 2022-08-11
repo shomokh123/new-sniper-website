@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\journeyController;
+use App\Http\Controllers\GeneralFormController;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,8 +32,12 @@ Route::get('/','App\Http\Controllers\HomeController@sniperH');
 
 //Route::get('/', 'App\Http\Controllers\ServiceController@sniperS')->name('sniperS');
 
+Route::get('/getStarted','App\Http\Controllers\GeneralFormController@create');
 
 
-Route::get('/getStarted', function () {
-    return view('getStarted');
-});
+
+Route::post('/store', 'App\Http\Controllers\GeneralFormController@store');
+
+
+//Route::post('formStore','App\Http\Controllers\GeneralFormController@store');
+

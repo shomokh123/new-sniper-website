@@ -42,7 +42,7 @@
         </div>
         <!-- Button -->
         <a
-          href="#"
+          href="{{ url('/getStarted')}}"
           class="hidden p-3 px-6 pt-2 text-white bg-darkRed rounded-full baseline hover:bg-brightRed md:block"
           >Get Started</a
         >
@@ -92,7 +92,7 @@
           </p>
           <div class="flex justify-center md:justify-start">
           <a
-          href="#"
+          href="{{ url('/getStarted')}}"
           class="hidden p-3 px-6 pt-2 text-white bg-darkRed rounded-full baseline hover:bg-brightRed md:block"
           >Get Started</a
         >
@@ -459,7 +459,7 @@
         <!-- Button -->
         <div>
           <a
-            href="#"
+            href="{{ url('/getStarted')}}"
             class="p-3 px-6 pt-2 text-darkRed bg-white rounded-full shadow-2xl baseline hover:bg-gray-900"
             >Get Started</a
           >
