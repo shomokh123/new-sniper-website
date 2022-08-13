@@ -22,34 +22,36 @@ class GeneralFormController extends Controller
  
     public function store(Request $request)
     {
-        $request->validate([
-            'startup_name' => 'required',
-            'first_name' => 'required|string',
-            'last_name' => 'required|string',
+
+        $input=$request->validate([
+            'startup_name' => 'required|min:2',
+            'first_name' => 'required|string|min:2',
+            'last_name' => 'required|string|min:2',
             'email' => 'required|email',
-            'mobile_number' => 'required|numeric|min:10|max:10',
-            'address' => 'required',
+            'mobile_number' => 'required|numeric',
+            'address' => 'required|min:2',
             'services' => 'required',
             'needs' => 'required',
             'project_phase' => 'required',
-     ]);
+     ],);
 
     
        // dd($request->all());
-        $input= generalForm::create([
+        $input=([
             'startup_name' => $request->startup_name,
             'first_name' => $request->first_name,
             'last_name' => $request->last_name,
             'email' => $request->email,
             'mobile_number' => $request->mobile_number,
-            'address' => $request->Address,
-            'services[]' => implode(",",$request->Services[]),
-            'needs[]' => implode(",",$request->Needs[]),
-            'project_phase[]' => implode(",",$request->project_phase),
+            'address' => $request->address,
+            'services' => implode(",",$request->services),
+            'needs' => implode(",",$request->needs),
+            'project_phase' => $request->project_phase,
 
-        ]); 
-
-        return redirect()->back();
+        ]);
+        generalForm::create($input);
+         return redirect()->back();
+       
     }
 
 
