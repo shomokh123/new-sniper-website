@@ -55,9 +55,8 @@
     Every <a class="text-darkRed">Sniper</a> has A story , create yours now
     </p>
 
-<form method="POST" action="{{ url('/store')}}"  enctype="multipart/form-data"  class="p-8 mt-6 mb-0 space-y-4 rounded-lg shadow-xl" >
+<form action="{{ url('/store')}}"  method="POST" enctype="multipart/form-data"  class="p-8 mt-6 mb-0 space-y-4 rounded-lg shadow-xl" >
        @csrf
-      <!--<p class="text-lg font-medium text-center">Sign in to your account</p>-->
 
       <div >
         <label for="startup_name" class="text-md font-medium">Startup-SMEs Name</label>
@@ -69,14 +68,14 @@
       <div >
         <label for="first_name" class="text-md font-medium">First Name</label>
         <div class="relative mt-1">
-          <input type="text" id="first_name" name="first_name"  class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter First Name"/>
+          <input type="text"  name="first_name"  class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter First Name"/>
         </div>
       </div>
 
       <div>
         <label for="last_name" class="text-md font-medium">Last Name</label>
         <div class="relative mt-1">
-          <input type="text" id="last_name" name="last_name" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter Last Name"/>
+          <input type="text" name="last_name" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter Last Name"/>
         </div>
       </div>
 
@@ -84,7 +83,7 @@
       <div>
         <label for="email" class="text-md font-medium">Email</label>
         <div class="relative mt-1">
-          <input type="email" id="email" name="email" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter email"/>
+          <input type="email" name="email" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter email"/>
 
           <span class="absolute inset-y-0 inline-flex items-center right-4">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -97,14 +96,14 @@
       <div>
         <label for="mobile_number" class="text-md font-medium">Phone Number</label>
         <div class="relative mt-1">
-          <input type="tel" id="mobile_number" name="mobile_number" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter Phone Number"/>
+          <input type="tel"  name="mobile_number" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter Phone Number"/>
         </div>
       </div>
 
       <div>
-        <label for="Address" class="text-md font-medium">Address</label>
+        <label for="address" class="text-md font-medium">Address</label>
         <div class="relative mt-1">
-          <input type="text" id="Address" name="Address" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter Address"/>
+          <input type="text" name="address" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter Address"/>
         </div>
       </div>
 
@@ -112,53 +111,53 @@
            <!--- Services --->
     <div class="flex">
       <div>
-       <label for="Services" class="text-md font-medium">Services</label>
+       <label for="services" class="text-md font-medium">Services</label>
 
       <div class="form-check">
-      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"  checked name="Services[]" value="MARKETING">
-      <label class="text-sm font-medium text-black dark:text-black" for="Services[]"  >MARKETING
+      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"  checked name="services[]" value="MARKETING">
+      <label class="text-sm font-medium text-black dark:text-black" for="services[]"  >MARKETING
       </label>
       </div>
 
      <div class="form-check">
-      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"  name="Services[]" value="BUSINESS MODEL">
-      <label class="text-sm font-medium text-black dark:text-black" for="Services[]" >BUSINESS MODEL
+      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"  name="services[]" value="BUSINESS MODEL">
+      <label class="text-sm font-medium text-black dark:text-black" for="services[]" >BUSINESS MODEL
       </label>
      </div>
 
      <div class="form-check">
-      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox" name="Services[]" value="OPERATION">
-      <label class="text-sm font-medium text-black dark:text-black" for="Services[]" >OPERATION
+      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox" name="services[]" value="OPERATION">
+      <label class="text-sm font-medium text-black dark:text-black" for="services[]" >OPERATION
       </label>
      </div>
 
      <div class="form-check">
-      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"   name="Services[]" value="FRASIIBILITY STUDY" >
-      <label class="text-sm font-medium text-black dark:text-black" for="Services[]" >FRASIIBILITY STUDY
+      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"   name="services[]" value="FRASIIBILITY STUDY" >
+      <label class="text-sm font-medium text-black dark:text-black" for="services[]" >FRASIIBILITY STUDY
       </label>
      </div>
 
      <div class="form-check">
-      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"  name="Services[]" value="TECHNOLOGY" >
-      <label class="text-sm font-medium text-black dark:text-black" for="Services[]" >TECHNOLOGY
+      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"  name="services[]" value="TECHNOLOGY" >
+      <label class="text-sm font-medium text-black dark:text-black" for="services[]" >TECHNOLOGY
       </label>
      </div>
 
      <div class="form-check">
-      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"  name="Services[]" value="FRANCHISE" >
-      <label class="text-sm font-medium text-black dark:text-black" for="Services[]" >FRANCHISE
+      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"  name="services[]" value="FRANCHISE" >
+      <label class="text-sm font-medium text-black dark:text-black" for="services[]" >FRANCHISE
       </label>
     </div>
 
     <div class="form-check">
-      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"   name="Services[]" value="FUNDING" >
-      <label class="text-sm font-medium text-black dark:text-black" for="Services[]" >FUNDING
+      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"   name="services[]" value="FUNDING" >
+      <label class="text-sm font-medium text-black dark:text-black" for="services[]" >FUNDING
       </label>
      </div>
 
      <div class="form-check">
-      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"   name="Services[]" value="Offices" >
-      <label class="text-sm font-medium text-black dark:text-black" for="Services[]" >Offices
+      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"   name="services[]" value="Offices" >
+      <label class="text-sm font-medium text-black dark:text-black" for="services[]" >Offices
       </label>
      </div>
 
@@ -170,28 +169,28 @@
      <!--- NEEDS --->
    <div class="flex">
     <div>
-     <label for="Needs" class="text-md font-medium">Needs</label>
+     <label for="needs" class="text-md font-medium">Needs</label>
       <div class="form-check">
-        <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"  checked name="Needs[]" value="Consultation">
-        <label class="form-check-label inline-block text-gray-800" for="Needs[]"  >Consultation
+        <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"  checked name="needs[]" value="Consultation">
+        <label class="form-check-label inline-block text-gray-800" for="needs[]"  >Consultation
         </label>
      </div>
 
       <div class="form-check">
-      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"   name="Needs[]" value="Mentorship">
-      <label class="form-check-label inline-block text-gray-800" for="Needs[]">Mentorship
+      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"   name="needs[]" value="Mentorship">
+      <label class="form-check-label inline-block text-gray-800" for="needs[]">Mentorship
       </label>
       </div>
 
       <div class="form-check">
-      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"  name="Needs[]" value="Knowledge">
-      <label class="form-check-label inline-block text-gray-800" for="Needs[]" >Knowledge
+      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"  name="needs[]" value="Knowledge">
+      <label class="form-check-label inline-block text-gray-800" for="needs[]" >Knowledge
       </label>
       </div>
 
       <div class="form-check">
-      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"   name="Needs[]" value="Incubation"  >
-      <label class="form-check-label inline-block text-gray-800" for="Needs[]" >Incubation
+      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white  mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2  text-darkRed" type="checkbox"   name="needs[]" value="Incubation"  >
+      <label class="form-check-label inline-block text-gray-800" for="needs[]" >Incubation
       </label>
       </div>
  
@@ -204,37 +203,37 @@
      <!--- Your project phase  --->
 
       <div>
-        <label for="Address" class="text-md font-medium">Your project phase</label>
+        <label for="project_phase[]" class="text-md font-medium">Your project phase</label>
         <div class="relative mt-1">
 
         <div class="flex items-center mb-2">
-        <input checked id="project_phase" type="radio" value="IDEA" name="project_phase" class="w-4 h-4 text-darkRed border-gray-300 bg-white">
-    <label for="project_phase" class="ml-2 text-sm font-medium text-black dark:text-black">IDEA</label>
+        <input checked  type="radio" value="IDEA" name="project_phase[]" class="w-4 h-4 text-darkRed border-gray-300 bg-white">
+    <label for="project_phase[]" class="ml-2 text-sm font-medium text-black dark:text-black">IDEA</label>
     </div>
 
   <div class="flex items-center mb-2">
-    <input  id="project_phase" type="radio" value="FEASIBILITY STUDY" name="project_phase" class="w-4 h-4 text-darkRed border-gray-300 bg-white">
-    <label for="project_phase" class="ml-2 text-sm font-medium text-black dark:text-black">FEASIBILITY STUDY</label>
+    <input  type="radio" value="FEASIBILITY STUDY" name="project_phase[]" class="w-4 h-4 text-darkRed border-gray-300 bg-white">
+    <label for="project_phase[]" class="ml-2 text-sm font-medium text-black dark:text-black">FEASIBILITY STUDY</label>
    </div>
 
   <div class="flex items-center mb-2">
-  <input id="project_phase" type="radio" value="PRESEED" name="project_phase" class="w-4 h-4 text-darkRed border-gray-300 bg-white">
-    <label for="project_phase" class="ml-2 text-sm font-medium text-black dark:text-black">PRESEED</label>
+  <input type="radio" value="PRESEED" name="project_phase[]" class="w-4 h-4 text-darkRed border-gray-300 bg-white">
+    <label for="project_phase[]" class="ml-2 text-sm font-medium text-black dark:text-black">PRESEED</label>
   </div>
 
  <div class="flex items-center mb-2">
- <input id="project_phase" type="radio" value="SEED PHASE" name="project_phase" class="w-4 h-4 text-darkRed border-gray-300 bg-white">
-    <label for="project_phase" class="ml-2 text-sm font-medium text-black dark:text-black">SEED PHASE</label>
+ <input  type="radio" value="SEED PHASE" name="project_phase[]" class="w-4 h-4 text-darkRed border-gray-300 bg-white">
+    <label for="project_phase[]" class="ml-2 text-sm font-medium text-black dark:text-black">SEED PHASE</label>
  </div>
 
  <div class="flex items-center mb-2">
- <input id="project_phase" type="radio" value="ROUND A" name="project_phase" class="w-4 h-4 text-darkRed border-gray-300 bg-white">
-    <label for="project_phase" class="ml-2 text-sm font-medium text-black dark:text-black">ROUND A</label>
+ <input type="radio" value="ROUND A" name="project_phase[]" class="w-4 h-4 text-darkRed border-gray-300 bg-white">
+    <label for="project_phase[]" class="ml-2 text-sm font-medium text-black dark:text-black">ROUND A</label>
  </div>
 
   <div class="flex items-center mb-2">
-    <input id="project_phase" type="radio" value="SERIES B" name="project_phase" class="w-4 h-4 text-darkRed border-gray-300 bg-white">
-    <label for="project_phase" class="ml-2 text-sm font-medium text-black dark:text-black">SERIES B</label>
+    <input type="radio" value="SERIES B" name="project_phase[]" class="w-4 h-4 text-darkRed border-gray-300 bg-white">
+    <label for="project_phase[]" class="ml-2 text-sm font-medium text-black dark:text-black">SERIES B</label>
   </div>
 
     </div>

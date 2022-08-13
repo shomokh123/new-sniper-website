@@ -28,9 +28,7 @@ Route::get('/Aboutus','App\Http\Controllers\AboutusController@sniperA');
 
 Route::get('/','App\Http\Controllers\HomeController@sniperH');
 
-//Route::get('/services','App\Http\Controllers\ServiceController@sniperS');
 
-//Route::get('/', 'App\Http\Controllers\ServiceController@sniperS')->name('sniperS');
 
 Route::get('/getStarted','App\Http\Controllers\GeneralFormController@create');
 
@@ -38,8 +36,6 @@ Route::get('/getStarted','App\Http\Controllers\GeneralFormController@create');
 
 Route::post('/store', 'App\Http\Controllers\GeneralFormController@store');
 
-
-//Route::post('formStore','App\Http\Controllers\GeneralFormController@store');
 
 
 

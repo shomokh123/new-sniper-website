@@ -20,9 +20,9 @@ return new class extends Migration
             $table->string('last_name');
             $table->string('email');
             $table->string('mobile_number');
-            $table->string('Address');
-            $table->string('Services');
-            $table->string('Needs');
+            $table->string('address');
+            $table->string('services');
+            $table->string('needs');
             $table->string('project_phase');
             $table->timestamps();
         });

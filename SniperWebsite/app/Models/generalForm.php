@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class generalForm extends Model
 {
     use HasFactory;
-    protected $fillable = ['startup_name','first_name','last_name','email','mobile_number','Address','Services','Needs','project_phase'];
+    protected $fillable = ['startup_name','first_name','last_name','email','mobile_number','address','Services','Needs','project_phase'];
 
     public function setCategoryAttribute($value)
     {
