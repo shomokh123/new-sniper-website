@@ -61,8 +61,20 @@
       <div >
         <label for="startup_name" class="text-md font-medium">Startup-SMEs Name</label>
         <div class="relative mt-1">
-          <input type="text" id="startup_name" name="startup_name" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter Startup-SMEs Name"/>
+          <input type="text" name="startup_name" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter Startup-SMEs Name"/>
         </div>
+           <!--Error message-->
+           @error('startup_name')
+         <div class="flex p-4 mb-4 text-sm text-red-700 bg-red-100 rounded-lg dark:bg-red-200 dark:text-red-800" role="alert" class="form-control @error('startup_name') is-invalid @enderror"
+                        value="{{ old('startup_name') }}" class="form-control">
+           <svg aria-hidden="true" class="flex-shrink-0 inline w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg>
+           <span class="sr-only">Info</span>
+           <div>
+           <span class="font-medium">!</span> {{ $message }}
+          </div>
+        </div>
+        @enderror
+
       </div>
 
       <div >
@@ -70,6 +82,18 @@
         <div class="relative mt-1">
           <input type="text"  name="first_name"  class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter First Name"/>
         </div>
+           <!--Error message-->
+           @error('first_name')
+         <div class="flex p-4 mb-4 text-sm text-red-700 bg-red-100 rounded-lg dark:bg-red-200 dark:text-red-800" role="alert" class="form-control @error('first_name') is-invalid @enderror"
+                        value="{{ old('first_name') }}" class="form-control">
+           <svg aria-hidden="true" class="flex-shrink-0 inline w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg>
+           <span class="sr-only">Info</span>
+           <div>
+           <span class="font-medium">!</span> {{ $message }}
+          </div>
+        </div>
+        @enderror
+
       </div>
 
       <div>
@@ -77,13 +101,25 @@
         <div class="relative mt-1">
           <input type="text" name="last_name" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter Last Name"/>
         </div>
+             <!--Error message-->
+             @error('last_name')
+         <div class="flex p-4 mb-4 text-sm text-red-700 bg-red-100 rounded-lg dark:bg-red-200 dark:text-red-800" role="alert" class="form-control @error('last_name') is-invalid @enderror"
+                        value="{{ old('last_name') }}" class="form-control">
+           <svg aria-hidden="true" class="flex-shrink-0 inline w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg>
+           <span class="sr-only">Info</span>
+           <div>
+           <span class="font-medium">!</span> {{ $message }}
+          </div>
+        </div>
+        @enderror
+        
       </div>
 
 
       <div>
         <label for="email" class="text-md font-medium">Email</label>
         <div class="relative mt-1">
-          <input type="email" name="email" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter email"/>
+          <input type="email" name="email" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter Email"/>
 
           <span class="absolute inset-y-0 inline-flex items-center right-4">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -91,13 +127,35 @@
             </svg>
           </span>
         </div>
+           <!--Error message-->
+           @error('email')
+         <div class="flex p-4 mb-4 text-sm text-red-700 bg-red-100 rounded-lg dark:bg-red-200 dark:text-red-800" role="alert" class="form-control @error('email') is-invalid @enderror"
+                        value="{{ old('email') }}" class="form-control">
+           <svg aria-hidden="true" class="flex-shrink-0 inline w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg>
+           <span class="sr-only">Info</span>
+           <div>
+           <span class="font-medium">!</span> {{ $message }}
+          </div>
+        </div>
+        @enderror
       </div>
 
       <div>
-        <label for="mobile_number" class="text-md font-medium">Phone Number</label>
+        <label for="mobile_number" class="text-md font-medium">Mobile Number</label>
         <div class="relative mt-1">
           <input type="tel"  name="mobile_number" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter Phone Number"/>
         </div>
+          <!--Error message-->
+          @error('mobile_number')
+         <div class="flex p-4 mb-4 text-sm text-red-700 bg-red-100 rounded-lg dark:bg-red-200 dark:text-red-800" role="alert" class="form-control @error('mobile_number') is-invalid @enderror"
+                        value="{{ old('mobile_number') }}" class="form-control">
+           <svg aria-hidden="true" class="flex-shrink-0 inline w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg>
+           <span class="sr-only">Info</span>
+           <div>
+           <span class="font-medium">!</span> {{ $message }}
+          </div>
+        </div>
+        @enderror
       </div>
 
       <div>
@@ -105,9 +163,26 @@
         <div class="relative mt-1">
           <input type="text" name="address" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter Address"/>
         </div>
+           <!--Error message-->
+           @error('address')
+         <div class="flex p-4 mb-4 text-sm text-red-700 bg-red-100 rounded-lg dark:bg-red-200 dark:text-red-800" role="alert" class="form-control @error('address') is-invalid @enderror"
+                        value="{{ old('address') }}" class="form-control">
+           <svg aria-hidden="true" class="flex-shrink-0 inline w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg>
+           <span class="sr-only">Info</span>
+           <div>
+           <span class="font-medium">!</span> {{ $message }}
+          </div>
+        </div>
+        @enderror
       </div>
 
-
+      <div class="flex p-4 mb-4 text-sm text-blue-700 bg-blue-100 rounded-lg dark:bg-blue-200 dark:text-blue-800" role="alert">
+  <svg aria-hidden="true" class="flex-shrink-0 inline w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg>
+  <span class="sr-only">Info</span>
+  <div>
+    <span class="font-medium">Notcie!</span> Choose what you want, Don't rely on default options .
+  </div>
+</div>
            <!--- Services --->
     <div class="flex">
       <div>
