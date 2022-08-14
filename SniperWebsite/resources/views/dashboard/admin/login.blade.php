@@ -1,40 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Admin Login</title>
-    <link rel="stylesheet" href="{{ asset('bootstrap.min.css') }}">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Sniper Admin Login</title>
+    	<!-- Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+
+<!-- Styles -->
+<link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
+<!-- Scripts -->
+<script src="{{ asset('js/app.js') }}" defer></script>
 </head>
-<body style="background-color:#c8d9e8 !important">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 offset-md-4" style="margin-top: 45px">
-                 <h4>Admin Login</h4><hr>
-                 <form action="{{ route('admin.check') }}" method="post">
+<body>
+    <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-red-50">
+
+    <div>
+			<a href="/">
+				<img src="../img/SniperLogo1.svg" alt="Logo" class="w-20 h-20 fill-current text-gray-500"/>
+
+			</a>
+		</div>
+
+        <div class="w-full sm:max-w-md mt-6 px-6 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg">
+            	<!-- Session Status -->
+			<div class="mb-4 font-medium text-sm text-green-600">
+				{{ session('status') }}
+			</div>
+
+			<!-- Validation Errors -->
+			@if ($errors->any())
+				<div class="mb-4">
+					<div class="font-medium text-red-600">
+						{{ __('Whoops! Something went wrong.') }}
+					</div>
+
+					<ul class="mt-3 list-disc list-inside text-sm text-red-600">
+						@foreach ($errors->all() as $error)
+							<li>{{ $error }}</li>
+						@endforeach
+					</ul>
+				</div>
+			@endif
+
+			<form method="POST" action="{{ route('admin.check') }}">
                     @if (Session::get('fail'))
                         <div class="alert alert-danger">
                             {{ Session::get('fail') }}
                         </div>
                     @endif
                     @csrf
-                     <div class="form-group">
-                         <label for="email">Email</label>
-                         <input type="text" class="form-control" name="email" placeholder="Enter email address" value="{{ old('email') }}">
-                         <span class="text-danger">@error('email'){{ $message }}@enderror</span>
+                     <div>
+                       <label for="email" class="block font-medium text-sm text-gray-700">
+						{{ __('Email') }}
+					   </label>
+                        <input id="email" name="email" type="email" class="block mt-1 w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" value="{{ old('email') }}" required autofocus>
                      </div>
-                     <div class="form-group">
-                         <label for="password">Password</label>
-                         <input type="password" class="form-control" name="password" placeholder="Enter password" value="{{ old('password') }}">
-                         <span class="text-danger">@error('password'){{ $message }}@enderror</span>
+
+                     <div class="mt-4">
+                       <label for="password" class="block font-medium text-sm text-gray-700">
+						  {{ __('Password') }}
+					    </label>
+                        <input id="password" name="password" type="password" class="block mt-1 w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" required autocomplete="current-password">
                      </div>
-                     <div class="form-group">
-                         <button type="submit" class="btn btn-primary">Login</button>
+
+                     <div  class="flex items-center justify-end mt-4">
+                     <button type="submit" class="ml-3 inline-flex items-center px-4 py-2 bg-red-700 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-red-500 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:ring ring-gray-300 disabled:opacity-25 transition ease-in-out duration-150">
+						{{ __('Log in') }}
+					</button>
                      </div>
                  </form>
-            </div>
-        </div>
+                 </div>
     </div>
 </body>
 </html>
