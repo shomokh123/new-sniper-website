@@ -29,6 +29,12 @@ Route::get('/Aboutus','App\Http\Controllers\AboutusController@sniperA');
 Route::get('/','App\Http\Controllers\HomeController@sniperH');
 
 
+Route::get('/viewR','App\Http\Controllers\RequestController@apply');
+
+
+//Route::get('/services','App\Http\Controllers\ServiceController@sniperS');
+
+
 
 Route::get('/getStarted','App\Http\Controllers\GeneralFormController@create');
 
@@ -43,6 +49,4 @@ Route::get('/request', function () {
     return view('requestTable');
 });
 
-Route::get('/viewR', function () {
-    return view('viewRequest');
-});
+
