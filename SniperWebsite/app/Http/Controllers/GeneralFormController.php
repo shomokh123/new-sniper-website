@@ -50,7 +50,7 @@ class GeneralFormController extends Controller
 
         ]);
         generalForm::create($input);
-         return redirect()->back();
+         return view('formMessage');
        
     }
 
