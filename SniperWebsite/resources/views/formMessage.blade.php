@@ -33,7 +33,10 @@
     <img src="img/SniperLogo2.svg" alt="Logo" class="h-auto w-full" />
     <div class="p-6">
       <p class="text-large text-xl font-bold  mb-5 text-black">Thank You For Choosing <a class="text-darkRed">Sniper</a> We Will Contact You Soon. Stay Tuend</p>
-      <button class="w-full rounded-md bg-darkRed  py-2 text-indigo-100 hover:bg-red-500 hover:shadow-md duration-75"><a href="{{ url('/')}}" >Okey</a></button>
+      <a href="{{ url('/')}}" >
+        <button class="w-full rounded-md bg-darkRed  py-2 text-indigo-100 hover:bg-red-500 hover:shadow-md duration-75">Okey
+        </button>
+    </a>
     </div>
   </div>
 </div>
