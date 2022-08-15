@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\journeyController;
 use App\Http\Controllers\GeneralFormController;
 use App\Http\Controllers\Admin\AdminController;
-
+use App\Http\Controllers\RequestController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -30,7 +30,7 @@ Route::get('/Aboutus','App\Http\Controllers\AboutusController@sniperA');
 Route::get('/','App\Http\Controllers\HomeController@sniperH');
 
 
-Route::get('/viewR','App\Http\Controllers\RequestController@apply');
+//Route::get('/viewR','App\Http\Controllers\RequestController@apply');
 
 
 
@@ -45,9 +45,7 @@ Route::get('/message', function () {
     return view('formMessage');
 });
 
-Route::get('/request', function () {
-    return view('requestTable');
-});
+
 
 
 Route::prefix('admin')->name('admin.')->group(function(){
@@ -63,3 +61,8 @@ Route::prefix('admin')->name('admin.')->group(function(){
     });
 
 });
+
+Route::get('/request',[AdminController::class,'requests']);
+
+Route::get('/viewR/{id}', [RequestController::class, 'detail']);
+

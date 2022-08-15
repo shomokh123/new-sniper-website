@@ -1,6 +1,6 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -17,12 +17,13 @@
       <div class="flex items-center justify-between">
         <!-- Logo -->
         <div class="pt-2">
-          <img class= "md:1/2 h-32 w-32" src="img/SniperLogo1.SVG" alt="" />
+          <img class= "md:1/2 h-32 w-32" src="../img/SniperLogo1.SVG" alt="" />
           
         </div>
         <!-- Menu Items -->
         <div class="hidden space-x-6 text-sm md:flex">
-          <a href="#" class="hover:text-darkGrayishBlue"></a>
+        <a href="{{ url('/admin/home')}}" class="hover:text-darkGrayishBlue">Home</a>
+          <a href="{{ url('/request')}}" class="hover:text-darkGrayishBlue">Request</a>
           
         </div>
         <!-- Button -->
@@ -31,7 +32,8 @@
           class="hidden p-3 px-6 pt-2 text-white bg-white rounded-full baseline hover:bg-brightRed md:block"
           ></a
         >
-
+        <a href="{{ route('admin.logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();" >Logout</a>
+                                     <form action="{{ route('admin.logout') }}" id="logout-form" method="post">@csrf</form>
         <!-- Hamburger Icon -->
         <button
           id="menu-btn"
@@ -49,8 +51,8 @@
           id="menu"
           class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
         >
-         <a href="#" class="hover:text-darkGrayishBlue"></a>
-         
+        <a href="{{ url('/admin/home')}}" class="hover:text-darkGrayishBlue">Home</a>
+         <a href="{{ url('/request')}}" class="hover:text-darkGrayishBlue">Request</a>         
         </div>
       </div>
     </nav> 
@@ -63,6 +65,8 @@
     <div
         class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row"
       >
+
+ 
     
   <div class="table w-full p-2">
         <table class="w-full border">
@@ -93,27 +97,20 @@
             </thead>
             <tbody>
                 
-                  
+            @foreach($request as $item)   
                 <tr class="bg-gray-100 text-center border-b text-sm text-gray-600">
-                
-                    <td class="p-2 border-r">John Doe</td>
-                    <td class="p-2 border-r">john@gmail.com</td>
+                    <td class="p-2 border-r">{{ $item->first_name }}</td>
+                    <td class="p-2 border-r">{{ $item->email }}</td>
                     <td>
-                        <a href="{{ url('/viewR')}}" class="bg-blue-500 p-2 text-white hover:shadow-lg text-xs font-thin">View</a>
+                        <a href="{{ url('/viewR'.$item->id)}}" class="bg-blue-500 p-2 text-white hover:shadow-lg text-xs font-thin">View</a>
                         <a href="#" class="bg-red-500 p-2 text-white hover:shadow-lg text-xs font-thin">Remove</a>
+                        
                     </td>
                 </tr>
                 
                
-                <tr class="bg-gray-100 text-center border-b text-sm text-gray-600">
-                    
-                    <td class="p-2 border-r">Jean Doe</td>
-                    <td class="p-2 border-r">jean@gmail.com</td>
-                    <td>
-                        <a href="{{ url('/viewR')}}" class="bg-blue-500 p-2 text-white hover:shadow-lg text-xs font-thin">View</a>
-                        <a href="#" class="bg-red-500 p-2 text-white hover:shadow-lg text-xs font-thin">Remove</a>
-                    </td>
-                </tr>
+                @endforeach   
+
                 
             </tbody>
         </table>
