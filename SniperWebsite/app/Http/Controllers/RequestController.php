@@ -12,8 +12,8 @@ class RequestController extends Controller
         //$event= DB::select('SELECT * FROM general_forms WHERE id= '.$id);
        // $event= generalForm::findorfail($id);
       // $event = generalForm::find($id);
-      $event = generalForm::where('id' , $id )->first();
+      $events = generalForm::where('id' , $id )->first();
 
-      return view('viewRequest', compact('event'));
+      return view('viewRequest', compact('events'));
         }
 }

@@ -23,7 +23,7 @@ class AdminController extends Controller
          $creds = $request->only('email','password');
 
          if( Auth::guard('admin')->attempt($creds) ){
-            redirect()->route('admin.home')  ;           
+           return redirect()->route('admin.home')  ;           
          }else{
              return redirect()->route('admin.login')->with('fail','Incorrect credentials');
          }

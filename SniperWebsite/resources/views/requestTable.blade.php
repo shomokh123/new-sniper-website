@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
     <title>Request</title>
     @vite('resources/css/app.css')
     @vite('resources/js/script.js')
@@ -22,8 +24,8 @@
         </div>
         <!-- Menu Items -->
         <div class="hidden space-x-6 text-sm md:flex">
-        <a href="{{ url('/admin/home')}}" class="hover:text-darkGrayishBlue">Home</a>
-          <a href="{{ url('/request')}}" class="hover:text-darkGrayishBlue">Request</a>
+        <a href="{{ url('/admin/home')}}" class="hover:text-darkGrayishBlue">HOME</a>
+          <a href="{{ url('/request')}}" class="hover:text-darkGrayishBlue">REQUEST</a>
           
         </div>
         <!-- Button -->
@@ -32,7 +34,8 @@
           class="hidden p-3 px-6 pt-2 text-white bg-white rounded-full baseline hover:bg-brightRed md:block"
           ></a
         >
-        <a href="{{ route('admin.logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();" >Logout</a>
+        <a href="{{ route('admin.logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();" ><i
+        class="bi bi-box-arrow-left" id="logouticon"></i> LOGOUT</a>
                                      <form action="{{ route('admin.logout') }}" id="logout-form" method="post">@csrf</form>
         <!-- Hamburger Icon -->
         <button
@@ -51,8 +54,8 @@
           id="menu"
           class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
         >
-        <a href="{{ url('/admin/home')}}" class="hover:text-darkGrayishBlue">Home</a>
-         <a href="{{ url('/request')}}" class="hover:text-darkGrayishBlue">Request</a>         
+        <a href="{{ url('/admin/home')}}" class="hover:text-darkGrayishBlue">HOME</a>
+         <a href="{{ url('/request')}}" class="hover:text-darkGrayishBlue">REQUEST</a>         
         </div>
       </div>
     </nav> 

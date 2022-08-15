@@ -60,15 +60,15 @@
     <div class="flex justify-center">
   <div class="block p-6 rounded-lg shadow-lg bg-white sm:w-1/3 ">
     <h5 class="text-red-700 text-3xl leading-tight font-medium mb-2 text-center">Request Information</h5>
-    <h6 class=" text-base "><b>Startup-SMEs Name: </b> <span class="text-gray-700 text-base mb-4">{{$event->startup_name}}</span></h6>
-    <h6 class=" text-base "><b>Firest Name: </b> <span class="text-gray-700 text-base mb-4"></span>{{$event->first_name}}</h6>
-    <h6 class=" text-base "><b>Last  Name: </b> <span class="text-gray-700 text-base mb-4"></span>{{$event->last_name}}</h6>
-    <h6 class=" text-base "><b>Email: </b> <span class="text-gray-700 text-base mb-4"></span>{{$event->email}}</h6>
-    <h6 class=" text-base "><b>Phone Number: </b> <span class="text-gray-700 text-base mb-4"></span>{{$event->mobile_number}}</h6>
-    <h6 class=" text-base "><b>Address:</b> <span class="text-gray-700 text-base mb-4"></span>{{$event->address}}</h6>
-    <h6 class=" text-base "><b>Services: </b> <span class="text-gray-700 text-base mb-4"></span>{{$event->services}}</h6>
-    <h6 class=" text-base "><b>Needs:</b> <span class="text-gray-700 text-base mb-4"></span>{{$event->needs}}</h6>
-    <h6 class=" text-base "><b>Your Project Phase:</b> <span class="text-gray-700 text-base mb-4"></span>{{$event->project_phase}}</h6>
+    <h6 class=" text-base "><b>Startup-SMEs Name: </b> <span class="text-gray-700 text-base mb-4">{{$events->startup_name}}</span></h6>
+    <h6 class=" text-base "><b>Firest Name: </b> <span class="text-gray-700 text-base mb-4"></span>{{$events->first_name}}</h6>
+    <h6 class=" text-base "><b>Last  Name: </b> <span class="text-gray-700 text-base mb-4"></span>{{$events->last_name}}</h6>
+    <h6 class=" text-base "><b>Email: </b> <span class="text-gray-700 text-base mb-4"></span>{{$events->email}}</h6>
+    <h6 class=" text-base "><b>Phone Number: </b> <span class="text-gray-700 text-base mb-4"></span>{{$events->mobile_number}}</h6>
+    <h6 class=" text-base "><b>Address:</b> <span class="text-gray-700 text-base mb-4"></span>{{$events->address}}</h6>
+    <h6 class=" text-base "><b>Services: </b> <span class="text-gray-700 text-base mb-4"></span>{{$events->services}}</h6>
+    <h6 class=" text-base "><b>Needs:</b> <span class="text-gray-700 text-base mb-4"></span>{{$events->needs}}</h6>
+    <h6 class=" text-base "><b>Your Project Phase:</b> <span class="text-gray-700 text-base mb-4"></span>{{$events->project_phase}}</h6>
 
   </div>
 </div>
