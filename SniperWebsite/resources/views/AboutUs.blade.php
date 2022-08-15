@@ -81,7 +81,6 @@
           bundles of strategies, solutions and services with high qualified
           experts.
           </p>
-         
         </div>
         
         <!-- Image -->
@@ -91,6 +90,7 @@
       </div>
     </section>
 
+          
      <!-- Sniper team -->
     <section id="sniperteam" >
       <!-- Container to heading and testm blocks -->
