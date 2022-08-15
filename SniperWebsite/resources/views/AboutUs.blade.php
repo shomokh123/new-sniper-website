@@ -101,12 +101,10 @@
 
         <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
           <!-- member 1 -->
-          <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 sm:mt-16" id="teamCard">
-           <div class="absolute -mt-16 w-full flex justify-center">
-                                        <div class="h-20 w-20">
-                                        <img src="img/3.jpg" alt="Display Picture of Silene Tokyo" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
-                                        </div>
-                                    </div>
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 sm:mt-16" id="teamCard"
+          >
+            <img src="img/3.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
             <h5 class="text-lg font-bold">DALAL NASSER</h5>
             <p class="text-sm text-darkGrayishBlue">
             MARKETING
@@ -114,12 +112,10 @@
           </div>
 
           <!-- member 2 -->
-          <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray  md:w-1/3 sm:mt-16" id="teamCard">
-          <div class="absolute -mt-16 w-full flex justify-center">
-                                        <div class="h-20 w-20">
-                                        <img src="img/3.jpg" alt="Display Picture of Silene Tokyo" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
-                                        </div>
-                                    </div>
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray  md:w-1/3 sm:mt-16" id="teamCard"
+          >
+          <img src="img/3.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
             <h5 class="text-lg font-bold">DR.SARA AL-HMOOD</h5>
             <p class="text-sm text-darkGrayishBlue">
             ARTIFICIAL INTILLEGENCE
@@ -127,27 +123,22 @@
           </div>
 
           <!-- member 3 -->
-          <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard">
-          <div class="absolute -mt-16 w-full flex justify-center">
-                                        <div class="h-20 w-20">
-                                        <img src="img/3.jpg" alt="Display Picture of Silene Tokyo" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
-                                        </div>
-                                    </div>
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard"
+          >
+          <img src="img/3.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
             <h5 class="text-lg font-bold">JAWAHER ALMOOH</h5>
             <p class="text-sm text-darkGrayishBlue">
             PROJECT MANAGER
             </p>
           </div>
         </div>
-        
         <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
           <!-- member 4 -->
-          <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 sm:mt-16" id="teamCard">
-          <div class="absolute -mt-16 w-full flex justify-center">
-                                        <div class="h-20 w-20">
-                                        <img src="img/6.jpg" alt="Display Picture of Silene Tokyo" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
-                                        </div>
-                                    </div>
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 sm:mt-16" id="teamCard"
+          >
+          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
             <h5 class="text-lg font-bold">MAJED RUSHDI</h5>
             <p class="text-sm text-darkGrayishBlue">
             MARKETING ADVISOR
@@ -155,12 +146,10 @@
           </div>
 
           <!-- member 5 -->
-          <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard">
-          <div class="absolute -mt-16 w-full flex justify-center">
-                                        <div class="h-20 w-20">
-                                        <img src="img/3.jpg" alt="Display Picture of Silene Tokyo" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
-                                        </div>
-                                    </div>
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard"
+          >
+          <img src="img/3.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
             <h5 class="text-lg font-bold">DR.EMAN ALSHAMMARI</h5>
             <p class="text-sm text-darkGrayishBlue">
             MARKETING
@@ -168,12 +157,10 @@
           </div>
 
           <!-- member 6 -->
-          <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard">
-          <div class="absolute -mt-16 w-full flex justify-center">
-                                        <div class="h-20 w-20">
-                                        <img src="img/6.jpg" alt="Display Picture of Silene Tokyo" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
-                                        </div>
-                                    </div>
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard"
+          >
+          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
             <h5 class="text-lg font-bold">JASSIM HAROON</h5>
             <p class="text-sm text-darkGrayishBlue">
             FAINANCE ADVISOR
@@ -182,12 +169,10 @@
         </div>
         <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
           <!-- member 7 -->
-          <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 sm:mt-16" id="teamCard">
-          <div class="absolute -mt-16 w-full flex justify-center">
-                                        <div class="h-20 w-20">
-                                        <img src="img/6.jpg" alt="Display Picture of Silene Tokyo" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
-                                        </div>
-                                    </div>
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 sm:mt-16" id="teamCard"
+          >
+          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
             <h5 class="text-lg font-bold">WALEED AL-NOUH</h5>
             <p class="text-sm text-darkGrayishBlue">
             FAINANCE ADVISORE
@@ -195,12 +180,10 @@
           </div>
 
           <!-- member 8 -->
-          <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard">
-          <div class="absolute -mt-16 w-full flex justify-center">
-                                        <div class="h-20 w-20">
-                                        <img src="img/6.jpg" alt="Display Picture of Silene Tokyo" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
-                                        </div>
-                                    </div>
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard"
+          >
+          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
             <h5 class="text-lg font-bold">AHMAD AL-DAEJ</h5>
             <p class="text-sm text-darkGrayishBlue">
             GOVERNANCE
@@ -208,12 +191,10 @@
           </div>
 
           <!-- member 9-->
-          <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard">
-          <div class="absolute -mt-16 w-full flex justify-center">
-                                        <div class="h-20 w-20">
-                                        <img src="img/3.jpg" alt="Display Picture of Silene Tokyo" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
-                                        </div>
-                                    </div>
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard"
+          >
+          <img src="img/3.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
             <h5 class="text-lg font-bold">MAJEDAH ALKENANI</h5>
             <p class="text-sm text-darkGrayishBlue">
             HR ADVISOR
@@ -222,12 +203,10 @@
         </div>
         <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
           <!-- member 10 -->
-          <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 sm:mt-16" id="teamCard">
-          <div class="absolute -mt-16 w-full flex justify-center">
-                                        <div class="h-20 w-20">
-                                        <img src="img/6.jpg" alt="Display Picture of Silene Tokyo" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
-                                        </div>
-                                    </div>
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 sm:mt-16" id="teamCard"
+          >
+          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
             <h5 class="text-lg font-bold">YOUSIF AL-HARBI</h5>
             <p class="text-sm text-darkGrayishBlue">
             BUSINESS STRATEGIST
@@ -235,12 +214,10 @@
           </div>
 
           <!-- member 11 -->
-          <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard">
-          <div class="absolute -mt-16 w-full flex justify-center">
-                                        <div class="h-20 w-20">
-                                        <img src="img/6.jpg" alt="Display Picture of Silene Tokyo" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
-                                        </div>
-                                    </div>
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard"
+          >
+          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
             <h5 class="text-lg font-bold">MOHMED ALZAHRANI</h5>
             <p class="text-sm text-darkGrayishBlue">
             FAINANCE
@@ -248,12 +225,10 @@
           </div>
 
           <!-- member 12-->
-          <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard">
-          <div class="absolute -mt-16 w-full flex justify-center">
-                                        <div class="h-20 w-20">
-                                        <img src="img/6.jpg" alt="Display Picture of Silene Tokyo" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
-                                        </div>
-                                    </div>
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard"
+          >
+          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
             <h5 class="text-lg font-bold">MOHAMED ABUZAIED</h5>
             <p class="text-sm text-darkGrayishBlue">
             OPERATION
@@ -262,12 +237,10 @@
         </div>
         <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
           <!-- member 13 -->
-          <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 sm:mt-16" id="teamCard">
-          <div class="absolute -mt-16 w-full flex justify-center">
-                                        <div class="h-20 w-20">
-                                        <img src="img/6.jpg" alt="Display Picture of Silene Tokyo" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
-                                        </div>
-                                    </div>
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 sm:mt-16" id="teamCard"
+          >
+          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
             <h5 class="text-lg font-bold">MOHAMMED ALHOSAN</h5>
             <p class="text-sm text-darkGrayishBlue">
             LOGISTICS
