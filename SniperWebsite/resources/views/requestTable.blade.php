@@ -121,7 +121,7 @@
                     <td class="p-2 border-r">{{ $item->email }}</td>
                     <td>
                         <a href="{{url('/viewR', $item->id)}}" class="bg-blue-500 p-2 text-white hover:shadow-lg text-xs font-thin">View</a>
-                        <a href="#" class="bg-red-500 p-2 text-white hover:shadow-lg text-xs font-thin">Remove</a>
+                        <a href="{{url('/destroy', $item->id)}}" class="bg-red-500 p-2 text-white hover:shadow-lg text-xs font-thin">Remove</a>
                         
                     </td>
                 </tr>

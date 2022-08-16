@@ -66,5 +66,9 @@ Route::get('/request',[AdminController::class,'requests']);
 
 Route::get('/viewR/{id}', [RequestController::class, 'detail']);
 
+//delete request
+Route::get('destroy/{id}', 'App\Http\Controllers\GeneralFormController@destroy');
+
+
 //excel
 Route::get('/export','App\Http\Controllers\GeneralFormController@export');

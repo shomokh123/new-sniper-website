@@ -78,9 +78,11 @@ class GeneralFormController extends Controller
     }
 
   
-    public function destroy(generalForm $generalForm)
+    public function destroy($id)
     {
-        //
+        $form = generalForm::where('id' , $id );
+        $form->delete($id);
+        return redirect('/request')->with('success','The Form has been Deleted Successfully');
     }
 
     public function export()
