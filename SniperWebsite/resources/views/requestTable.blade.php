@@ -69,14 +69,17 @@
     <div>
       <h2 class="text-4xl font-bold text-center pb-16"> Apply Request</h2>
     </div>
+ 
      <!-- Button -->
-     <div class="container absolute sm:w-44 left-3/4 sm:mb-32">
+     <div class="container absolute sm:w-44 sm:left-1/2 md:left-3/4 sm:mb-32">
      <a
-          href="#"
-          class="hidden p-3 px-6 pt-2 text-white bg-green-700 rounded-full baseline hover:bg-brightRed md:block"
+          href="{{url('/export')}}"
+          class=" p-3 px-6 pt-2 text-white bg-green-700 rounded-full baseline hover:bg-green-500 md:block"
           ><i class="bi bi-download"></i> DOWNLOAD</a
         >
     </div>
+
+    
     <div
         class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row"
       >

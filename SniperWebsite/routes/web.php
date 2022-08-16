@@ -66,3 +66,5 @@ Route::get('/request',[AdminController::class,'requests']);
 
 Route::get('/viewR/{id}', [RequestController::class, 'detail']);
 
+//excel
+Route::get('/export','App\Http\Controllers\GeneralFormController@export');

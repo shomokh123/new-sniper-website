@@ -1,9 +1,14 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Exports\GeneralFormExport;
+use Maatwebsite\Excel\Facades\Excel;
+
 
 use App\Models\generalForm;
 use Illuminate\Http\Request;
+
+
 
 class GeneralFormController extends Controller
 {
@@ -76,5 +81,11 @@ class GeneralFormController extends Controller
     public function destroy(generalForm $generalForm)
     {
         //
+    }
+
+    public function export()
+    {
+        
+        return Excel::download(new GeneralFormExport, 'SniperApplayRequest.xlsx');
     }
 }
