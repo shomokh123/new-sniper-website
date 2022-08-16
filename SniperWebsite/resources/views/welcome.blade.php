@@ -198,11 +198,11 @@
       <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
         <div class="relative">
           <dt>
-            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white " id="serviceIcon">
-             <!-- Heroicon name: outline/lightning-bolt -->
-             <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
-            </svg>
+            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white ">
+             <!-- Serviceicon  -->
+             <div class="flex items-center bg-white w-10 h-10 rounded-full ">
+              <h1 class="mx-auto text-white font-semibold text-lg"><img src="img/newJ4.png" /></h1>
+             </div>
           </div>
             <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Strategy</p>
           </dt>
@@ -212,12 +212,12 @@
 
         <div class="relative">
           <dt>
-            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white " id="serviceIcon">
-               <!-- Heroicon name: outline/lightning-bolt -->
-               <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
-              </svg>
-            </div>
+          <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white ">
+             <!-- Serviceicon  -->
+             <div class="flex items-center bg-white w-10 h-10 rounded-full ">
+              <h1 class="mx-auto text-white font-semibold text-lg"><img src="img/newJ4.png" /></h1>
+             </div>
+          </div>
             <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Management</p>
           </dt>
           <dd class="mt-2 ml-16 text-base text-gray-500">Running your business, controlling problems and solve it, Manage humane resources, Controlfinance activities.
@@ -226,12 +226,12 @@
 
         <div class="relative">
           <dt>
-            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white " id="serviceIcon">
-              <!-- Heroicon name: outline/lightning-bolt -->
-              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
-              </svg>
-            </div>
+          <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white ">
+             <!-- Serviceicon  -->
+             <div class="flex items-center bg-white w-10 h-10 rounded-full ">
+              <h1 class="mx-auto text-white font-semibold text-lg"><img src="img/newJ4.png" /></h1>
+             </div>
+          </div>
             <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Marketing</p>
           </dt>
           <dd class="mt-2 ml-16 text-base text-gray-500">Professional branding leads to more revenue, Sniper will get you to your customer.</dd>
@@ -239,12 +239,12 @@
 
         <div class="relative">
           <dt>
-            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white" id="serviceIcon">
-              <!-- Heroicon name: outline/lightning-bolt -->
-              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
-              </svg>
-            </div>
+          <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white ">
+             <!-- Serviceicon  -->
+             <div class="flex items-center bg-white w-10 h-10 rounded-full ">
+              <h1 class="mx-auto text-white font-semibold text-lg"><img src="img/newJ4.png" /></h1>
+             </div>
+          </div>
             <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Technologies</p>
           </dt>
           <dd class="mt-2 ml-16 text-base text-gray-500">Software, IT infrastructure services in addition to technicalfinancial solutions.
@@ -253,12 +253,12 @@
 
         <div class="relative">
           <dt>
-            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white " id="serviceIcon">
-              <!-- Heroicon name: outline/lightning-bolt -->
-              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
-              </svg>
-            </div>
+          <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white ">
+             <!-- Serviceicon  -->
+             <div class="flex items-center bg-white w-10 h-10 rounded-full ">
+              <h1 class="mx-auto text-white font-semibold text-lg"><img src="img/newJ4.png" /></h1>
+             </div>
+          </div>
             <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Investment</p>
           </dt>
           <dd class="mt-2 ml-16 text-base text-gray-500">Join us to access opportunities to grow through connecting your business with available investment and funding options.</dd>
@@ -267,12 +267,12 @@
 
         <div class="relative">
           <dt>
-            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white" id="serviceIcon">
-              <!-- Heroicon name: outline/lightning-bolt -->
-              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
-              </svg>
-            </div>
+          <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white ">
+             <!-- Serviceicon  -->
+             <div class="flex items-center bg-white w-10 h-10 rounded-full ">
+              <h1 class="mx-auto text-white font-semibold text-lg"><img src="img/newJ4.png" /></h1>
+             </div>
+          </div>
             <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Franchise</p>
           </dt>
           <dd class="mt-2 ml-16 text-base text-gray-500">GO to Franchise professionals – safely with Sniper.</dd>
@@ -280,11 +280,11 @@
 
         <div class="relative">
           <dt>
-          <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white" id="serviceIcon">
-             <!-- Heroicon name: outline/lightning-bolt -->
-             <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
-            </svg>
+          <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white ">
+             <!-- Serviceicon  -->
+             <div class="flex items-center bg-white w-10 h-10 rounded-full ">
+              <h1 class="mx-auto text-white font-semibold text-lg"><img src="img/newJ4.png" /></h1>
+             </div>
           </div>
             <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Legal</p>
           </dt>
@@ -294,12 +294,12 @@
 
         <div class="relative">
           <dt>
-            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white" id="serviceIcon">
-              <!-- Heroicon name: outline/lightning-bolt -->
-              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
-              </svg>
-            </div>
+          <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-white text-white ">
+             <!-- Serviceicon  -->
+             <div class="flex items-center bg-white w-10 h-10 rounded-full ">
+              <h1 class="mx-auto text-white font-semibold text-lg"><img src="img/newJ4.png" /></h1>
+             </div>
+          </div>
             <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Place</p>
           </dt>
           <dd class="mt-2 ml-16 text-base text-gray-500">Place to work, place to HUNT.

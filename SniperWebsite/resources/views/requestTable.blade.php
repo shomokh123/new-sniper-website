@@ -7,8 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/app.css" />
     <link rel="stylesheet" href="{{tailwindcss('css/app.css')}}" />
-
+    <!--Jquery online library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    
 
     <title>Request</title>
     @vite('resources/css/app.css')
@@ -17,6 +20,7 @@
   <body>
     <!-- Navbar -->
 <nav id="Home"class="relative container mx-auto p-6">
+  
       <!-- Flex container -->
       <div class="flex items-center justify-between">
         <!-- Logo -->
@@ -28,6 +32,7 @@
         <div class="hidden space-x-6 text-sm md:flex">
         <a href="{{ url('/admin/home')}}" class="hover:text-darkGrayishBlue">HOME</a>
           <a href="{{ url('/request')}}" class="hover:text-darkGrayishBlue">REQUEST</a>
+          
           
         </div>
         <!-- Button -->
@@ -62,22 +67,24 @@
          <a href="{{ url('/request')}}" class="hover:text-darkGrayishBlue">REQUEST</a>         
         </div>
       </div>
+    
     </nav> 
 
-    <!--success message-->
-    @if(\Session::has('success'))
+      <!--success message-->
+<div id="DeleteSuccessMessage"class="relative container mx-auto p-6">
+      @if(\Session::has('success'))
     <div class="flex p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-green-200 dark:text-green-800" role="alert">
   <svg aria-hidden="true" class="flex-shrink-0 inline w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg>
-  <span class="sr-only">Info</span>
   <div>
     <span class="font-medium">Success alert!</span> {{ \Session::get('success') }}.
     {{ \Session::forget('success') }}
   </div>
 </div>
 @endif
-   
+</div>
+<script>$("#DeleteSuccessMessage").show().delay(2000).fadeOut();</script>
 
-
+   <!--end success message-->
 
     <!--table-->
     <section>

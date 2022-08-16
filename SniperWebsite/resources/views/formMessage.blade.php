@@ -30,11 +30,11 @@
 <!-- component -->
 <div class="flex h-screen items-center justify-center bg-red-50 px-4">
   <div class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-105 hover:shadow-xl">
-    <img src="img/SniperLogo2.svg" alt="Logo" class="h-auto w-full" />
+    <img src="img/SniperLogo3.svg" alt="Logo" class="h-auto w-full" />
     <div class="p-6">
-      <p class="text-large text-xl font-bold  mb-5 text-black">Thank You For Choosing <a class="text-darkRed">Sniper</a> We Will Contact You Soon. Stay Tuend</p>
+      <p class="text-large text-xl font-bold  mb-5 text-black">We Will <a class="text-darkRed">Hunt</a> You Soon. Stay Tuend</p>
       <a href="{{ url('/')}}" >
-        <button class="w-full rounded-md bg-darkRed  py-2 text-indigo-100 hover:bg-red-500 hover:shadow-md duration-75">Okey
+        <button class="w-full rounded-md bg-darkRed  py-2 text-white hover:bg-red-500 hover:shadow-md duration-75">Okey
         </button>
     </a>
     </div>

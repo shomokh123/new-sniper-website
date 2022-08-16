@@ -222,18 +222,18 @@
     </div>
 
     <!-- left timeline -->
-    <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-      <div class="order-1 w-5/12"></div>
+  <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+    <div class="order-1 w-5/12"></div>
 
       <div class="z-20 flex items-center order-1 bg-white shadow-xl w-10 h-10 rounded-full border-solid border-2 border-red-700">
         <h1 class="mx-auto text-white font-semibold text-lg"><img src="img/newJ4.png" /></h1>
-      </div>
-      <div class="order-1 bg-red-100 rounded-lg shadow-xl w-5/12 px-6 py-4">
-        <h3 class="mb-3 font-bold text-black text-xl">4ST: <a class="text-darkRed">RUN</a></h3>
-        <p class="text-sm  leading-snug tracking-wide text-gray-900 text-opacity-100">When your businesses matures, we provide financial solutions to give you the opportunity to expand and grow, such As:
+        </div>
+        <div class="order-1 bg-red-100 rounded-lg shadow-xl w-5/12 px-6 py-4">
+         <h3 class="mb-3 font-bold text-black text-xl">4ST: <a class="text-darkRed">RUN</a></h3>
+         <p class="text-sm  leading-snug tracking-wide text-gray-900 text-opacity-100">When your businesses matures, we provide financial solutions to give you the opportunity to expand and grow, such As:
             Direct investment, crowded funding, angel investor, family fund.</p>
       
-</div>
+        </div>
     </div>
   </div>
 </div>

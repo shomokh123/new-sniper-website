@@ -85,10 +85,6 @@ background-position: 48% 40%;
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
-/*services style*/
-#serviceIcon{
-  background-color: #BE2623;
-}
 
 /*journey style*/
 #journeyIcon{
