@@ -39,6 +39,8 @@
         <a href="{{ route('admin.logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();" ><i
         class="bi bi-box-arrow-left" id="logouticon"></i> LOGOUT</a>
                                      <form action="{{ route('admin.logout') }}" id="logout-form" method="post">@csrf</form>
+
+                                    
         <!-- Hamburger Icon -->
         <button
           id="menu-btn"
@@ -66,6 +68,14 @@
     <section>
     <div>
       <h2 class="text-4xl font-bold text-center pb-16"> Apply Request</h2>
+    </div>
+     <!-- Button -->
+     <div class="container absolute sm:w-44 left-3/4 sm:mb-32">
+     <a
+          href="#"
+          class="hidden p-3 px-6 pt-2 text-white bg-green-700 rounded-full baseline hover:bg-brightRed md:block"
+          ><i class="bi bi-download"></i> DOWNLOAD</a
+        >
     </div>
     <div
         class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row"
