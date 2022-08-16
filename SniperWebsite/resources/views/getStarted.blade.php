@@ -161,7 +161,7 @@
       </div>
 
       <div>
-        <label for="address" class="text-md font-medium">Address</label>
+        <label for="address" class="text-md font-medium">City</label>
         <div class="relative mt-1">
           <input type="text" name="address" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter Address"/>
         </div>

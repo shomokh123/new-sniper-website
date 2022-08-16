@@ -101,44 +101,46 @@
 
         <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
           <!-- member 1 -->
+
           <div
             class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 sm:mt-16" id="teamCard"
           >
-            <img src="img/3.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
-            <h5 class="text-lg font-bold">DALAL NASSER</h5>
+          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover  shadow-md"/>
+            <h5 class="text-lg font-bold">YOUSIF AL-HARBI</h5>
             <p class="text-sm text-darkGrayishBlue">
-            MARKETING
+            FOUNDER & PRESIDENT
             </p>
           </div>
-
-          <!-- member 2 -->
+           <!-- member 2 -->
           <div
-            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray  md:w-1/3 sm:mt-16" id="teamCard"
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 sm:mt-16" id="teamCard"
           >
-          <img src="img/3.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
-            <h5 class="text-lg font-bold">DR.SARA AL-HMOOD</h5>
+            <img src="img/3.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover  shadow-md"/>
+            <h5 class="text-lg font-bold">DALAL NASSER</h5>
             <p class="text-sm text-darkGrayishBlue">
-            ARTIFICIAL INTILLEGENCE
+            CO-FOUNDER & CEO
             </p>
           </div>
 
           <!-- member 3 -->
           <div
-            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard"
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray  md:w-1/3 sm:mt-16" id="teamCard"
           >
-          <img src="img/3.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
-            <h5 class="text-lg font-bold">JAWAHER ALMOOH</h5>
+          <img src="img/3.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover  shadow-md"/>
+            <h5 class="text-lg font-bold">DR.SARA AL-HMOOD</h5>
             <p class="text-sm text-darkGrayishBlue">
-            PROJECT MANAGER
+            ARTIFICIAL INTILLEGENCE
             </p>
           </div>
         </div>
+
+
         <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
           <!-- member 4 -->
           <div
             class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 sm:mt-16" id="teamCard"
           >
-          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
+          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover  shadow-md"/>
             <h5 class="text-lg font-bold">MAJED RUSHDI</h5>
             <p class="text-sm text-darkGrayishBlue">
             MARKETING ADVISOR
@@ -149,7 +151,7 @@
           <div
             class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard"
           >
-          <img src="img/3.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
+          <img src="img/3.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover  shadow-md"/>
             <h5 class="text-lg font-bold">DR.EMAN ALSHAMMARI</h5>
             <p class="text-sm text-darkGrayishBlue">
             MARKETING
@@ -160,19 +162,21 @@
           <div
             class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard"
           >
-          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
+          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover shadow-md"/>
             <h5 class="text-lg font-bold">JASSIM HAROON</h5>
             <p class="text-sm text-darkGrayishBlue">
             FAINANCE ADVISOR
             </p>
           </div>
         </div>
+
+
         <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
           <!-- member 7 -->
           <div
             class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 sm:mt-16" id="teamCard"
           >
-          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
+          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover shadow-md"/>
             <h5 class="text-lg font-bold">WALEED AL-NOUH</h5>
             <p class="text-sm text-darkGrayishBlue">
             FAINANCE ADVISORE
@@ -183,7 +187,7 @@
           <div
             class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard"
           >
-          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
+          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover shadow-md"/>
             <h5 class="text-lg font-bold">AHMAD AL-DAEJ</h5>
             <p class="text-sm text-darkGrayishBlue">
             GOVERNANCE
@@ -194,22 +198,23 @@
           <div
             class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard"
           >
-          <img src="img/3.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
+          <img src="img/3.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover  shadow-md"/>
             <h5 class="text-lg font-bold">MAJEDAH ALKENANI</h5>
             <p class="text-sm text-darkGrayishBlue">
             HR ADVISOR
             </p>
           </div>
         </div>
+        
         <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
           <!-- member 10 -->
           <div
-            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 sm:mt-16" id="teamCard"
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard"
           >
-          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
-            <h5 class="text-lg font-bold">YOUSIF AL-HARBI</h5>
+          <img src="img/3.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover  shadow-md"/>
+            <h5 class="text-lg font-bold">JAWAHER ALMOOH</h5>
             <p class="text-sm text-darkGrayishBlue">
-            BUSINESS STRATEGIST
+            PROJECT MANAGER
             </p>
           </div>
 
@@ -217,7 +222,7 @@
           <div
             class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard"
           >
-          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
+          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover  shadow-md"/>
             <h5 class="text-lg font-bold">MOHMED ALZAHRANI</h5>
             <p class="text-sm text-darkGrayishBlue">
             FAINANCE
@@ -228,19 +233,20 @@
           <div
             class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard"
           >
-          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
+          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover  shadow-md"/>
             <h5 class="text-lg font-bold">MOHAMED ABUZAIED</h5>
             <p class="text-sm text-darkGrayishBlue">
             OPERATION
             </p>
           </div>
         </div>
+
         <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
           <!-- member 13 -->
           <div
             class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 sm:mt-16" id="teamCard"
           >
-          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover h-full w-full shadow-md"/>
+          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover  shadow-md"/>
             <h5 class="text-lg font-bold">MOHAMMED ALHOSAN</h5>
             <p class="text-sm text-darkGrayishBlue">
             LOGISTICS
