@@ -72,3 +72,8 @@ Route::get('destroy/{id}', 'App\Http\Controllers\GeneralFormController@destroy')
 
 //excel
 Route::get('/export','App\Http\Controllers\GeneralFormController@export');
+
+
+Route::get('delete/{id}','App\Http\Controllers\RequestController@destroy');
+
+

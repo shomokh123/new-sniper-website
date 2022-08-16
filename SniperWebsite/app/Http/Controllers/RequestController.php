@@ -16,4 +16,10 @@ class RequestController extends Controller
 
       return view('viewRequest', compact('events'));
         }
+
+        public function destroy($id) {
+          DB::delete('delete from general_forms where id = ?',[$id]);
+          echo "Record deleted successfully.<br/>";
+          echo '<a href = "/delete-records">Click Here</a> to go back.';
+       }
 }
