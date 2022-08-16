@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="{{tailwindcss('css/app.css')}}" />
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
     <title>Request</title>
@@ -19,7 +21,7 @@
       <div class="flex items-center justify-between">
         <!-- Logo -->
         <div class="pt-2">
-          <img class= "md:1/2 h-32 w-32" src="../img/SniperLogo1.SVG" alt="" />
+          <img class= "md:1/2 h-32 w-32" src="img/SniperLogo1.SVG" alt="" />
           
         </div>
         <!-- Menu Items -->
@@ -105,7 +107,7 @@
                     <td class="p-2 border-r">{{ $item->first_name }}</td>
                     <td class="p-2 border-r">{{ $item->email }}</td>
                     <td>
-                        <a href="{{ url('/viewR'.$item->id)}}" class="bg-blue-500 p-2 text-white hover:shadow-lg text-xs font-thin">View</a>
+                        <a href="{{url('/viewR', $item->id)}}" class="bg-blue-500 p-2 text-white hover:shadow-lg text-xs font-thin">View</a>
                         <a href="#" class="bg-red-500 p-2 text-white hover:shadow-lg text-xs font-thin">Remove</a>
                         
                     </td>
