@@ -68,3 +68,8 @@ Route::get('/viewR/{id}', [RequestController::class, 'detail']);
 
 //excel
 Route::get('/export','App\Http\Controllers\GeneralFormController@export');
+
+
+Route::get('delete/{id}','App\Http\Controllers\RequestController@destroy');
+
+

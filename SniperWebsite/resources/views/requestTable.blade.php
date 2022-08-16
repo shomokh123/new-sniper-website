@@ -74,6 +74,9 @@
      <div class="container absolute sm:w-44 sm:left-1/2 md:left-3/4 sm:mb-32">
      <a
           href="{{url('/export')}}"
+     <div class="container absolute sm:w-40 sm:left-1/2 md:left-3/4 sm:mb-32">
+     <a
+          href="{{ url('users/export/')}}"
           class=" p-3 px-6 pt-2 text-white bg-green-700 rounded-full baseline hover:bg-green-500 md:block"
           ><i class="bi bi-download"></i> DOWNLOAD</a
         >
@@ -121,7 +124,7 @@
                     <td class="p-2 border-r">{{ $item->email }}</td>
                     <td>
                         <a href="{{url('/viewR', $item->id)}}" class="bg-blue-500 p-2 text-white hover:shadow-lg text-xs font-thin">View</a>
-                        <a href="#" class="bg-red-500 p-2 text-white hover:shadow-lg text-xs font-thin">Remove</a>
+                        <a href="{{url('/delete', $item->id)}}"  class="bg-red-500 p-2 text-white hover:shadow-lg text-xs font-thin">Remove</a>
                         
                     </td>
                 </tr>

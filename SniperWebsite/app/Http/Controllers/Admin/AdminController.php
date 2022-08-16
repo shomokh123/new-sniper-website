@@ -9,6 +9,9 @@ use DB;
 use App\Models\Admin;
 use Illuminate\Support\Facades\Auth;
 
+use App\Exports\UsersExport;
+use Maatwebsite\Excel\Facades\Excel;
+
 class AdminController extends Controller
 {
     function check(Request $request){
@@ -35,7 +38,10 @@ class AdminController extends Controller
 
     }
 
-    
+    public function export() 
+    {
+        return Excel::download(new UsersExport, 'users.xlsx');
+    }
 
     function logout(){
         Auth::guard('admin')->logout();
