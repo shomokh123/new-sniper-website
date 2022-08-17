@@ -139,7 +139,7 @@
                 
             @foreach($request as $item)   
                 <tr class="bg-gray-100 text-center border-b text-sm text-gray-600">
-                    <td class="p-2 border-r">{{ $item->first_name }}</td>
+                    <td class="p-2 border-r">{{ $item->first_name }} {{ $item->last_name }}</td>
                     <td class="p-2 border-r">{{ $item->email }}</td>
                     <td>
                         <a href="{{url('/viewR', $item->id)}}" class="bg-blue-500 p-2 text-white hover:shadow-lg text-xs font-thin">View</a>

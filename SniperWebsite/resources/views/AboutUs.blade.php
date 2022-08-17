@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="{{tailwindcss('css/app.css')}}" />
+
     <title>About us Page</title>
     @vite('resources/css/app.css')
     @vite('resources/js/script.js')
@@ -75,7 +77,7 @@
         
         <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
           
-          <p class="max-w-sm text-4xl text-center md:text-3xl text-black md:text-left">
+          <p class="max-w-sm font-serif text-4xl text-center md:text-3xl text-black md:text-left">
           <Strong class="text-red-700">Sniper</Strong> is the ultimate world of business destinations to develop
           startups and SMEs to grow up, sustain and penetrate new markets via
           bundles of strategies, solutions and services with high qualified

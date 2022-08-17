@@ -393,7 +393,7 @@
 
 <div id="Clients" class="max-w-6xl px-5 mx-auto mt-32 text-center">
         <h2 class="text-4xl font-bold text-center">
-        Our <a class="text-darkRed">Clients</a>  Who Make Us Proud </h2>
+        Our <a class="text-darkRed">Clients</a>  Who Make Us <a class="text-darkRed">Proud</a> </h2>
         </div>  
 
 <section  class="bg-white lg:px-[200px] py-20 lg:py-[120px]">

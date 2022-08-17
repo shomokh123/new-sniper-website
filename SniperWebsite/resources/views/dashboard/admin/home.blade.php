@@ -65,7 +65,7 @@ LOGOUT</a>
     </nav> 
 
      <!-- ====== Hero Section Start -->
-     <div class="container relative pt-[120px] lg:pt-[150px] pb-[110px] bg-white  flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row max-w-6xl">
+     <div class="container relative pt-[120px] lg:pt-[5px] pb-[110px] bg-white  flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row max-w-6xl">
       <div class="container">
         <div class="flex flex-wrap -mx-4">
           <div class="w-full lg:w-5/12 px-4">
@@ -85,8 +85,8 @@ LOGOUT</a>
           <div class="hidden lg:block lg:w-1/12 px-4"></div>
           <div class="w-full lg:w-6/12 px-4">
             <div class="lg:text-right lg:ml-auto">
-              <div class="relative inline-block z-10 pt-11 lg:pt-0">
-                <img src="https://cdn.tailgrids.com/1.0/assets/images/hero/hero-image-01.png" alt="hero" class="max-w-full lg:ml-auto"/>
+              <div class="relative inline-block z-10 pt-11 lg:pt-0 mb-3">
+                <img src="../img/Adminpanal.PNG" alt="hero" class="max-w-full lg:ml-auto"/>
                 <span class="absolute -left-8 -bottom-8 z-[-1]">
                   <svg width="93" height="93" viewBox="0 0 93 93" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="2.5" cy="2.5" r="2.5" fill="#cc0206" />
