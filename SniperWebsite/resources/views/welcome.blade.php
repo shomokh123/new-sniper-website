@@ -37,7 +37,7 @@
           <a href="#services" class="hover:text-darkGrayishBlue">SERVICES</a>
           <a href="#Partners" class="hover:text-darkGrayishBlue">PARTNERS</a>
           <a href="#Clients" class="hover:text-darkGrayishBlue">CLIENTS</a>
-          <a href="{{ url('/journey')}}" class="hover:text-darkGrayishBlue">THE JOURNEY</a>
+          <a href="{{ url('/journey')}}" class="hover:text-darkGrayishBlue"> JOURNEY</a>
           <a href="#FOOTER" class="hover:text-darkGrayishBlue">CONTACT US</a>
         </div>
         <!-- Button -->
@@ -69,7 +69,7 @@
           <a href="#services" class="hover:text-darkGrayishBlue">SERVICES</a>
           <a href="#Partners" class="hover:text-darkGrayishBlue">PARTNERS</a>
           <a href="#Clients" class="hover:text-darkGrayishBlue">CLIENTS</a>
-          <a href="{{ url('/journey')}}" class="hover:text-darkGrayishBlue">THE JOURNEY</a>
+          <a href="{{ url('/journey')}}" class="hover:text-darkGrayishBlue"> JOURNEY</a>
           <a href="#FOOTER" class="hover:text-darkGrayishBlue">CONTACT US</a>
         </div>
       </div>
@@ -525,7 +525,7 @@
           </div>
           <div class="flex flex-col space-y-3 text-white">
             <a href="#Clients" class="hover:text-brightRed">CLIENTS</a>
-            <a href="{{ url('/journey')}}" class="hover:text-brightRed">THE JOURNEY</a>
+            <a href="{{ url('/journey')}}" class="hover:text-brightRed"> JOURNEY</a>
             <a href="#FOOTER" class="hover:text-brightRed">CONTACT US</a>
           </div>
         </div>

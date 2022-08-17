@@ -29,7 +29,7 @@
           <a href="{{ url('/#services')}}" class="hover:text-darkGrayishBlue">SERVICES</a>
           <a href="{{ url('/#Partners')}}" class="hover:text-darkGrayishBlue">PARTNERS</a>
           <a href="{{ url('/#Clients')}}" class="hover:text-darkGrayishBlue">CLIENTS</a>
-          <a href="{{ url('/journey')}}" class="hover:text-darkGrayishBlue">THE JOURNEY</a>
+          <a href="{{ url('/journey')}}" class="hover:text-darkGrayishBlue"> JOURNEY</a>
           <a href="#FOOTER" class="hover:text-darkGrayishBlue">CONTACT US</a>
         </div>
         <!-- Button -->
@@ -61,7 +61,7 @@
           <a href="{{ url('/#services')}}" class="hover:text-darkGrayishBlue">SERVICES</a>
           <a href="{{ url('/#Partners')}}" class="hover:text-darkGrayishBlue">PARTNERS</a>
           <a href="{{ url('/#Clients')}}" class="hover:text-darkGrayishBlue">CLIENTS</a>
-          <a href="{{ url('/journey')}}" class="hover:text-darkGrayishBlue">THE JOURNEY</a>
+          <a href="{{ url('/journey')}}" class="hover:text-darkGrayishBlue"> JOURNEY</a>
           <a href="#FOOTER" class="hover:text-darkGrayishBlue">CONTACT US</a>
         </div>
       </div>
@@ -76,12 +76,12 @@
         <!-- About us paragraph-->
         
         <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
-          
-          <p class="max-w-sm font-serif text-4xl text-center md:text-3xl text-black md:text-left">
-          <Strong class="text-red-700">Sniper</Strong> is the ultimate world of business destinations to develop
+        <dd class="text-justify ml-16 text-3xl text-base text-black"><Strong class="text-red-700">Sniper</Strong> is the ultimate world of business destinations to develop
           startups and SMEs to grow up, sustain and penetrate new markets via
           bundles of strategies, solutions and services with high qualified
-          experts.
+          experts.</dd>
+          <p class="max-w-sm  text-3xl text-center md:text-3xl text-black md:text-left ml-16 font-base">
+          
           </p>
         </div>
         
@@ -325,7 +325,7 @@
           </div>
           <div class="flex flex-col space-y-3 text-white">
             <a href="{{ url('/#Clients')}}" class="hover:text-brightRed">CLIENTS</a>
-            <a href="{{ url('/journey')}}" class="hover:text-brightRed">THE JOURNEY</a>
+            <a href="{{ url('/journey')}}" class="hover:text-brightRed"> JOURNEY</a>
             <a href="#FOOTER" class="hover:text-brightRed">CONTACT US</a>
           </div>
         </div>

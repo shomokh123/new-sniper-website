@@ -41,7 +41,7 @@
           <a href="{{ url('/#services')}}" class="hover:text-darkGrayishBlue">SERVICES</a>
           <a href="{{ url('/#Partners')}}" class="hover:text-darkGrayishBlue">PARTNERS</a>
           <a href="{{ url('/#Clients')}}" class="hover:text-darkGrayishBlue">CLIENTS</a>
-          <a href="{{ url('/journey')}}" class="hover:text-darkGrayishBlue">THE JOURNEY</a>
+          <a href="{{ url('/journey')}}" class="hover:text-darkGrayishBlue"> JOURNEY</a>
           <a href="#FOOTER" class="hover:text-darkGrayishBlue">CONTACT US</a>
         </div>
         <!-- Button -->
@@ -73,14 +73,14 @@
           <a href="{{ url('/#services')}}" class="hover:text-darkGrayishBlue">SERVICES</a>
           <a href="{{ url('/#Partners')}}" class="hover:text-darkGrayishBlue">PARTNERS</a>
           <a href="{{ url('/#Clients')}}" class="hover:text-darkGrayishBlue">CLIENTS</a>
-          <a href="{{ url('/journey')}}" class="hover:text-darkGrayishBlue">THE JOURNEY</a>
+          <a href="{{ url('/journey')}}" class="hover:text-darkGrayishBlue"> JOURNEY</a>
           <a href="#FOOTER" class="hover:text-darkGrayishBlue">CONTACT US</a>
         </div>
       </div>
     </nav>
 
     <section >
-    <h2 class="text-4xl font-bold text-center"> <a class="text-darkRed">The</a> Journey</h2>
+    <h2 class="text-4xl font-bold text-center"> <a class="text-darkRed"></a> Journey</h2>
 
     <div class="container bg-white mx-auto w-full h-full">
   <div class="relative wrap overflow-hidden p-10 h-full">
@@ -164,7 +164,7 @@
             <path d="M8.9375 12.1875C8.71875 12.1875 8.53125 12.125 8.34375 11.9687L6.28125 9.96875C6.0625 9.75 6.0625 9.40625 6.28125 9.1875C6.5 8.96875 6.84375 8.96875 7.0625 9.1875L8.9375 11.0312L12.9375 7.15625C13.1563 6.9375 13.5 6.9375 13.7188 7.15625C13.9375 7.375 13.9375 7.71875 13.7188 7.9375L9.5625 12C9.34375 12.125 9.125 12.1875 8.9375 12.1875Z"></path>
          </svg>
       </span>
-      Business STRATEGY & model.
+      Business STRATEGY & Model.
    </li>
    <li class="flex text-base text-body-color mb-4">
       <span class="rounded-full mr-2 text-base text-primary">
@@ -298,7 +298,7 @@
           </div>
           <div class="flex flex-col space-y-3 text-white">
             <a href="{{ url('/#Clients')}}" class="hover:text-brightRed">CLIENTS</a>
-            <a href="{{ url('/journey')}}" class="hover:text-brightRed">THE JOURNEY</a>
+            <a href="{{ url('/journey')}}" class="hover:text-brightRed"> JOURNEY</a>
             <a href="#FOOTER" class="hover:text-brightRed">CONTACT US</a>
           </div>
         </div>

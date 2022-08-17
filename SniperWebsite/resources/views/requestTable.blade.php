@@ -93,7 +93,7 @@
     </div>
  
      <!-- Button -->
-     <div class="container absolute sm:w-44 sm:left-1/2 md:left-3/4 sm:mb-32">
+     <div class="container absolute sm:w-40 sm:left-1/2 md:left-3/4 sm:mb-32">
      <a
           href="{{url('/export')}}"
           class=" p-3 px-6 pt-2 text-white bg-green-700 rounded-full baseline hover:bg-green-500 md:block"
