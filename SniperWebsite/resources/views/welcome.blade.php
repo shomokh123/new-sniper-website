@@ -44,7 +44,7 @@
         <a
           href="{{ url('/getStarted')}}"
           class="hidden p-3 px-6 pt-2 text-white bg-darkRed rounded-full baseline hover:bg-brightRed md:block"
-          >Get Started</a
+          >Let's Hunt</a
         >
 
         <!-- Hamburger Icon -->
@@ -91,8 +91,8 @@
           <div class="flex justify-center md:justify-start">
           <a
           href="{{ url('/getStarted')}}"
-          class="hidden p-3 px-6 pt-2 text-white bg-darkRed rounded-full baseline hover:bg-brightRed md:block"
-          >Get Started</a
+          class="p-3 px-6 pt-2 text-white bg-darkRed rounded-full baseline hover:bg-brightRed md:block"
+          >Let's Hunt</a
         >
           </div>
         </div>
@@ -452,14 +452,14 @@
         <h2
           class="text-5xl font-bold leading-tight text-center text-white md:text-4xl md:max-w-xl md:text-left"
         >
-        Every <a class="text-darkRed">Sniper</a> has A story , create yours now
+        Every <a class="text-darkRed">Sniper</a> has A story , create yours <a class="text-darkRed">now!</a> 
         </h2>
         <!-- Button -->
         <div>
           <a
             href="{{ url('/getStarted')}}"
             class="p-3 px-6 pt-2 text-darkRed bg-white rounded-full shadow-2xl baseline hover:bg-gray-900"
-            >Get Started</a
+            >Let's Hunt</a
           >
         </div>
       </div>
