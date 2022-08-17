@@ -30,7 +30,7 @@
 <!-- component -->
 <div class="flex h-screen items-center justify-center bg-red-50 px-4">
   <div class="max-w-sm overflow-hidden rounded-xl bg-white shadow-md duration-200 hover:scale-105 hover:shadow-xl">
-    <img src="img/Thankyou.svg" alt="Logo" class="h-auto w-full" />
+    <img src="img/THANK YOU.PNG" alt="Logo" class="h-auto w-full" />
     <div class="p-6">
       <p class="text-large text-xl font-bold  mb-5 text-black">We Will <a class="text-darkRed">Hunt</a> You Soon. Stay Tuend</p>
       <a href="{{ url('/')}}" >
