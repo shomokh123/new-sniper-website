@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     
 
-    <title>Request</title>
+    <title>Requests</title>
     @vite('resources/css/app.css')
     @vite('resources/js/script.js')
   </head>
@@ -61,7 +61,7 @@
       <div class="md:hidden">
         <div
           id="menu"
-          class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+          class="flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
         >
         <a href="{{ url('/admin/home')}}" class="hover:text-darkGrayishBlue">HOME</a>
          <a href="{{ url('/request')}}" class="hover:text-darkGrayishBlue">REQUEST</a>         
@@ -93,7 +93,7 @@
     </div>
  
      <!-- Button -->
-     <div class="container absolute sm:w-44 sm:left-1/2 md:left-3/4 sm:mb-32">
+     <div class="absolute sm:w-44 sm:left-1/2 md:left-3/4 sm:mb-32">
      <a
           href="{{url('/export')}}"
           class=" p-3 px-6 pt-2 text-white bg-green-700 rounded-full baseline hover:bg-green-500 md:block"

@@ -50,10 +50,10 @@
 
 <div class="max-w-screen-xl  px-4 mx-auto sm:px-6 lg:px-8 ">
   <div class="max-w-lg mx-auto">
-    <h1 class="text-2xl font-bold text-center text-darkRed sm:text-3xl">Get started today</h1>
+    <h1 class="text-2xl font-bold text-center text-darkRed sm:text-3xl">Let's Hunt</h1>
 
     <p class="max-w-md mx-auto mt-4 text-center text-gray-500">
-    Every <a class="text-darkRed">Sniper</a> has A story , create yours now
+    Every <a class="text-darkRed">Sniper</a> has A story , create yours <a class="text-darkRed">now!</a>
     </p>
 
 <form action="{{ url('/store')}}"  method="POST" enctype="multipart/form-data"  class="p-8 mt-6 mb-0 space-y-4 rounded-lg shadow-xl" >
@@ -145,7 +145,7 @@
       <div>
         <label for="mobile_number" class="text-md font-medium">Mobile Number</label>
         <div class="relative mt-1">
-          <input type="tel"  name="mobile_number" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter Phone Number"/>
+          <input type="tel"  name="mobile_number" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter Mobile Number"/>
         </div>
           <!--Error message-->
           @error('mobile_number')
@@ -163,7 +163,7 @@
       <div>
         <label for="address" class="text-md font-medium">City</label>
         <div class="relative mt-1">
-          <input type="text" name="address" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter Address"/>
+          <input type="text" name="address" class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm" placeholder="Enter City"/>
         </div>
            <!--Error message-->
            @error('address')

@@ -10,7 +10,7 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="{{tailwindcss('css/app.css')}}" />
-    <title>Request</title>
+    <title>Admin Home</title>
     @vite('resources/css/app.css')
     @vite('resources/js/script.js')
   </head>
@@ -70,15 +70,10 @@ LOGOUT</a>
         <div class="flex flex-wrap -mx-4">
           <div class="w-full lg:w-5/12 px-4">
             <div class="hero-content">
-              <h1 class=" text-dark font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug mb-3 ">
-                Kickstart <br />
-                with <a class="text-darkRed font-bold text-5xl">Sniper</a><br/>
+              <h1 class=" text-dark font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug mt-32 ">
+              <a class="text-darkRed font-bold text-5xl">Hunt</a> Your Goals<br />
+               With<a class="text-darkRed font-bold text-5xl"> Sniper</a><br/>
               </h1>
-              <p class="text-base mb-8 text-body-color max-w-[480px]">
-                Hunt Your Goals ..
-              </p>
-
-
             </div>
           </div>
 
