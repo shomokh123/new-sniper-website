@@ -260,10 +260,7 @@
           </div>
           <!-- Social Links Container -->
           <div class="flex justify-center space-x-4">
-            <!-- facebook Link  -->
-            <a href="#">
-              <img src="img/icon-facebook.svg" alt="" class="h-6" />
-            </a>
+         
             <!-- youtube Link  -->
             <a href="#">
               <img src="img/icon-youtube.svg" alt="" class="h-6" />

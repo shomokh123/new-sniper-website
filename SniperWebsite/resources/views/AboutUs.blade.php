@@ -120,7 +120,7 @@
             <img src="img/3.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover  shadow-md"/>
             <h5 class="text-lg font-bold">DALAL NASSER</h5>
             <p class="text-sm text-darkGrayishBlue">
-            CO-FOUNDER & CEO
+            CO-FOUNDER & EXECUTIVE MANAGER
             </p>
           </div>
 
@@ -151,12 +151,12 @@
 
           <!-- member 5 -->
           <div
-            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard"
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 sm:mt-16" id="teamCard"
           >
-          <img src="img/3.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover  shadow-md"/>
-            <h5 class="text-lg font-bold">DR.EMAN ALSHAMMARI</h5>
+          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover  shadow-md"/>
+            <h5 class="text-lg font-bold">MOHAMMED ALHOSAN</h5>
             <p class="text-sm text-darkGrayishBlue">
-            MARKETING
+            LOGISTICS
             </p>
           </div>
 
@@ -213,25 +213,13 @@
           <div
             class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard"
           >
-          <img src="img/3.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover  shadow-md"/>
-            <h5 class="text-lg font-bold">JAWAHER ALMOOH</h5>
-            <p class="text-sm text-darkGrayishBlue">
-            PROJECT MANAGER
-            </p>
-          </div>
-
-          <!-- member 11 -->
-          <div
-            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard"
-          >
           <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover  shadow-md"/>
             <h5 class="text-lg font-bold">MOHMED ALZAHRANI</h5>
             <p class="text-sm text-darkGrayishBlue">
             FAINANCE
             </p>
           </div>
-
-          <!-- member 12-->
+          <!-- member 11 -->
           <div
             class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3 sm:mt-16" id="teamCard"
           >
@@ -243,17 +231,12 @@
           </div>
         </div>
 
+          <!-- member 12-->
+       
+
         <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
           <!-- member 13 -->
-          <div
-            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3 sm:mt-16" id="teamCard"
-          >
-          <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover  shadow-md"/>
-            <h5 class="text-lg font-bold">MOHAMMED ALHOSAN</h5>
-            <p class="text-sm text-darkGrayishBlue">
-            LOGISTICS
-            </p>
-          </div>
+     
 
          
         </div>
@@ -287,10 +270,7 @@
           </div>
           <!-- Social Links Container -->
           <div class="flex justify-center space-x-4">
-            <!-- facebook Link  -->
-            <a href="#">
-              <img src="img/icon-facebook.svg" alt="" class="h-6" />
-            </a>
+
             <!-- youtube Link  -->
             <a href="#">
               <img src="img/icon-youtube.svg" alt="" class="h-6" />
