@@ -76,7 +76,7 @@
         <!-- About us paragraph-->
         
         <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
-        <dd class="text-justify ml-16 text-3xl text-base text-black"><Strong class="text-red-700">Sniper</Strong> is the ultimate world of business destinations to develop
+        <dd class=" ml-16 text-4xl text-base text-gray-500"><Strong class="text-red-700">Sniper</Strong> is the ultimate world of business destinations to develop
           startups and SMEs to grow up, sustain and penetrate new markets via
           bundles of strategies, solutions and services with high qualified
           experts.</dd>
