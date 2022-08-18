@@ -76,10 +76,10 @@
         <!-- About us paragraph-->
         
         <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
-        <dd class=" ml-16 text-4xl text-base text-gray-500"><Strong class="text-red-700">Sniper</Strong> is the ultimate world of business destinations to develop
+        <p class=" ml-16 md:text-4xl  sm:text-4xl text-base text-gray-500"><Strong class="text-red-700">Sniper</Strong> is the ultimate world of business destinations to develop
           startups and SMEs to grow up, sustain and penetrate new markets via
           bundles of strategies, solutions and services with high qualified
-          experts.</dd>
+          experts.</p>
           <p class="max-w-sm  text-3xl text-center md:text-3xl text-black md:text-left ml-16 font-base">
           
           </p>
@@ -181,7 +181,7 @@
           <img src="img/6.jpg" alt="" class="h-20 w-20 -mt-16 rounded-full object-cover shadow-md"/>
             <h5 class="text-lg font-bold">WALEED AL-NOUH</h5>
             <p class="text-sm text-darkGrayishBlue">
-            FAINANCE ADVISORE
+            FAINANCE ADVISOR
             </p>
           </div>
 
